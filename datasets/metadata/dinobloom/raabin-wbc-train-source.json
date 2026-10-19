@@ -1,0 +1,23 @@
+{
+  "dataset": "Raabin-WBC cropped double-labeled Train component",
+  "dinoBloom_paper_version": "arXiv:2404.05022v1",
+  "source_page": "https://raabindata.com/",
+  "component_index": "https://dl.raabindata.com/Index%20of%20WBC%20Data/Index%20of%20WBC%20Cropped_double_labeled/",
+  "download_url": "https://dl.raabindata.com/Index%20of%20WBC%20Data/Index%20of%20WBC%20Cropped_double_labeled/Train.rar",
+  "source_filename": "Train.rar",
+  "access_terms_as_shown_by_source": "Free access; cite the original Raabin-WBC publication. No separate license identifier was shown on the download page.",
+  "retrieved_date": "2026-10-12",
+  "expected_size_bytes": 292300976,
+  "transfer_status": "complete",
+  "archive_path": "/projects/_hdd/keyi005hdd/dinobloom/archives/raabin-wbc-train.rar",
+  "archive_sha256": "ac41ebc1547d9c5c70153fe1b5a1303630ad44643b8fa99cc72dccbe31b9ca31",
+  "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/raabin-wbc-train",
+  "inventory_path_in_repository": "datasets/metadata/dinobloom/raabin-wbc-train-inventory.json",
+  "analysis_path_in_repository": "results/phase2_dataset/interim_raabin_wbc_train/class_counts_report.md",
+  "notes": [
+    "The component index lists Train.rar (278 MiB), TestA.zip (115 MiB), and TestB.zip (104 MiB). This work downloads Train.rar only, to keep the training-source subset separate from evaluation data.",
+    "The DinoBloom paper reports 10,175 images for its Raabin source. Confirm the actual archive's file count and labels after download; do not treat the paper count as verified inventory.",
+    "Long-lived sequential HTTP transfers stalled; a 1 KiB probe confirmed byte-range support. The remaining bytes are being fetched in independently verified HTTP ranges and assembled only after every range has the expected Content-Range and byte length.",
+    "Completed archive size 292300976 bytes; SHA-256 verified locally. Full member read/list and safe extraction completed. Inventory found 10175 JPEGs, all decoded successfully, with no decode errors and no exact duplicate hashing performed."
+  ]
+}

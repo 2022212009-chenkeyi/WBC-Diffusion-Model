@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="658" viewBox="0 0 940 658">
+<style>text{font-family:Arial,sans-serif;fill:#20242b}.title{font-size:20px;font-weight:700}.meta{font-size:13px;fill:#565e6b}.label{font-size:14px}.value{font-size:13px}.axis{stroke:#c8cdd5;stroke-width:1}</style>
+<text class="title" x="235" y="32">aml-matek · v1 · not-reported · cell-morphology</text>
+<text class="meta" x="235" y="56">N = 18,365 · count basis: annotation-records</text>
+<line class="axis" x1="235" y1="77" x2="235" y2="629"/>
+<text class="label" x="223" y="104" text-anchor="end">NGS</text>
+<rect x="235" y="86" width="610" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="854" y="103">8,484 (46.20%)</text>
+<text class="label" x="223" y="140" text-anchor="end">LYT</text>
+<rect x="235" y="122" width="283" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="527" y="139">3,937 (21.44%)</text>
+<text class="label" x="223" y="176" text-anchor="end">MYO</text>
+<rect x="235" y="158" width="235" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="479" y="175">3,268 (17.79%)</text>
+<text class="label" x="223" y="212" text-anchor="end">MON</text>
+<rect x="235" y="194" width="129" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="373" y="211">1,789 (9.74%)</text>
+<text class="label" x="223" y="248" text-anchor="end">EOS</text>
+<rect x="235" y="230" width="30" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="274" y="247">424 (2.31%)</text>
+<text class="label" x="223" y="284" text-anchor="end">NGB</text>
+<rect x="235" y="266" width="8" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="252" y="283">109 (0.59%)</text>
+<text class="label" x="223" y="320" text-anchor="end">BAS</text>
+<rect x="235" y="302" width="6" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="250" y="319">79 (0.43%)</text>
+<text class="label" x="223" y="356" text-anchor="end">EBO</text>
+<rect x="235" y="338" width="6" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="250" y="355">78 (0.42%)</text>
+<text class="label" x="223" y="392" text-anchor="end">PMO</text>
+<rect x="235" y="374" width="5" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="249" y="391">70 (0.38%)</text>
+<text class="label" x="223" y="428" text-anchor="end">MYB</text>
+<rect x="235" y="410" width="3" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="247" y="427">42 (0.23%)</text>
+<text class="label" x="223" y="464" text-anchor="end">MOB</text>
+<rect x="235" y="446" width="2" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="246" y="463">26 (0.14%)</text>
+<text class="label" x="223" y="500" text-anchor="end">PMB</text>
+<rect x="235" y="482" width="1" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="245" y="499">18 (0.10%)</text>
+<text class="label" x="223" y="536" text-anchor="end">KSC</text>
+<rect x="235" y="518" width="1" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="245" y="535">15 (0.08%)</text>
+<text class="label" x="223" y="572" text-anchor="end">MMZ</text>
+<rect x="235" y="554" width="1" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="245" y="571">15 (0.08%)</text>
+<text class="label" x="223" y="608" text-anchor="end">LYA</text>
+<rect x="235" y="590" width="1" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="245" y="607">11 (0.06%)</text>
+</svg>

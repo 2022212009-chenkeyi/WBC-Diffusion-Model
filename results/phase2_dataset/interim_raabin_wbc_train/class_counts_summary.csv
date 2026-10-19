@@ -1,0 +1,6 @@
+source_id,release,split,task,label_schema,native_label,count,count_basis,data_role,analysis_class,harmonization_id,group_total,share_pct
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Basophil,212,decodable-images,cohort-source,,,10175,2.0835
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Eosinophil,744,decodable-images,cohort-source,,,10175,7.312
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Lymphocyte,2427,decodable-images,cohort-source,,,10175,23.8526
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Monocyte,561,decodable-images,cohort-source,,,10175,5.5135
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Neutrophil,6231,decodable-images,cohort-source,,,10175,61.2383

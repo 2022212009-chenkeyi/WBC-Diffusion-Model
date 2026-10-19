@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-10-15T00:04:02.079873+00:00",
+  "generated_samples": 50000,
+  "real_train_samples": 50000,
+  "real_test_samples": 10000,
+  "sample_file": "/projects/keyi005ssd/WBCDiffusion/generated_samples/ddpm-cifar10-reference/samples_ema_step0800000_n50000_seed2026.npy",
+  "protocol": "TorchMetrics 1.9.0 with torch-fidelity Inception-v3 features (2048D); not numerically identical to the original TensorFlow-GAN Inception-v1 protocol",
+  "fid_train": 3.283917188644409,
+  "fid_test": 5.340665340423584,
+  "kid_mean": 0.0009741807007230818,
+  "kid_std": 0.00023209881328511983,
+  "kid_subsets": 100,
+  "kid_subset_size": 1000,
+  "inception_score_mean": 9.541122436523438,
+  "inception_score_std": 0.0873202532529831
+}

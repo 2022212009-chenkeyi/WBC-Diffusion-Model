@@ -1,0 +1,9 @@
+source_id,release,split,task,label_schema,native_label,count,count_basis,data_role,analysis_class,harmonization_id,group_total,share_pct
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,neutrophil,3329,decodable-images,external-holdout,,,17092,19.4769
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,eosinophil,3117,decodable-images,external-holdout,,,17092,18.2366
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,ig,2895,decodable-images,external-holdout,,,17092,16.9377
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,platelet,2348,decodable-images,external-holdout,,,17092,13.7374
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,erythroblast,1551,decodable-images,external-holdout,,,17092,9.0744
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,monocyte,1420,decodable-images,external-holdout,,,17092,8.308
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,basophil,1218,decodable-images,external-holdout,,,17092,7.1261
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,lymphocyte,1214,decodable-images,external-holdout,,,17092,7.1027

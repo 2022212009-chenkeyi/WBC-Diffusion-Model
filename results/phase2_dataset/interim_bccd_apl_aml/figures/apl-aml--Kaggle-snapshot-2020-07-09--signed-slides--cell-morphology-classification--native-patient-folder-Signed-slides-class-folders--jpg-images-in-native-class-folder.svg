@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="838" viewBox="0 0 940 838">
+<style>text{font-family:Arial,sans-serif;fill:#20242b}.title{font-size:20px;font-weight:700}.meta{font-size:13px;fill:#565e6b}.label{font-size:14px}.value{font-size:13px}.axis{stroke:#c8cdd5;stroke-width:1}</style>
+<text class="title" x="235" y="32">apl-aml · Kaggle snapshot 2020-07-09 · signed-slides · cell-morphology-classification</text>
+<text class="meta" x="235" y="56">N = 14,250 · count basis: jpg-images-in-native-class-folder</text>
+<line class="axis" x1="235" y1="77" x2="235" y2="809"/>
+<text class="label" x="223" y="104" text-anchor="end">Lymphocyte</text>
+<rect x="235" y="86" width="610" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="854" y="103">3,112 (21.84%)</text>
+<text class="label" x="223" y="140" text-anchor="end">Blast, no lineage spec</text>
+<rect x="235" y="122" width="578" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="822" y="139">2,948 (20.69%)</text>
+<text class="label" x="223" y="176" text-anchor="end">Smudge cells</text>
+<rect x="235" y="158" width="546" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="790" y="175">2,786 (19.55%)</text>
+<text class="label" x="223" y="212" text-anchor="end">Segmented neutrophils</text>
+<rect x="235" y="194" width="378" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="622" y="211">1,930 (13.54%)</text>
+<text class="label" x="223" y="248" text-anchor="end">Monocyte</text>
+<rect x="235" y="230" width="249" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="493" y="247">1,272 (8.93%)</text>
+<text class="label" x="223" y="284" text-anchor="end">Promyelocyte</text>
+<rect x="235" y="266" width="104" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="348" y="283">532 (3.73%)</text>
+<text class="label" x="223" y="320" text-anchor="end">Erythroblast</text>
+<rect x="235" y="302" width="92" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="336" y="319">470 (3.30%)</text>
+<text class="label" x="223" y="356" text-anchor="end">Lymphocyte, variant</text>
+<rect x="235" y="338" width="86" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="330" y="355">438 (3.07%)</text>
+<text class="label" x="223" y="392" text-anchor="end">Myelocyte</text>
+<rect x="235" y="374" width="32" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="276" y="391">163 (1.14%)</text>
+<text class="label" x="223" y="428" text-anchor="end">Band neutrophils</text>
+<rect x="235" y="410" width="29" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="273" y="427">147 (1.03%)</text>
+<text class="label" x="223" y="464" text-anchor="end">Eosinophils</text>
+<rect x="235" y="446" width="19" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="263" y="463">99 (0.69%)</text>
+<text class="label" x="223" y="500" text-anchor="end">Metamyelocyte</text>
+<rect x="235" y="482" width="15" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="259" y="499">76 (0.53%)</text>
+<text class="label" x="223" y="536" text-anchor="end">Promonocyte</text>
+<rect x="235" y="518" width="14" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="258" y="535">71 (0.50%)</text>
+<text class="label" x="223" y="572" text-anchor="end">Giant thrombocyte</text>
+<rect x="235" y="554" width="11" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="255" y="571">58 (0.41%)</text>
+<text class="label" x="223" y="608" text-anchor="end">Basophil</text>
+<rect x="235" y="590" width="9" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="253" y="607">47 (0.33%)</text>
+<text class="label" x="223" y="644" text-anchor="end">Plasma cells</text>
+<rect x="235" y="626" width="9" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="253" y="643">47 (0.33%)</text>
+<text class="label" x="223" y="680" text-anchor="end">Arifact</text>
+<rect x="235" y="662" width="5" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="249" y="679">25 (0.18%)</text>
+<text class="label" x="223" y="716" text-anchor="end">Unidentified</text>
+<rect x="235" y="698" width="4" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="248" y="715">18 (0.13%)</text>
+<text class="label" x="223" y="752" text-anchor="end">Thrombocyte aggregation</text>
+<rect x="235" y="734" width="2" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="246" y="751">10 (0.07%)</text>
+<text class="label" x="223" y="788" text-anchor="end">Prolymphocyte</text>
+<rect x="235" y="770" width="0" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="244" y="787">1 (0.01%)</text>
+</svg>

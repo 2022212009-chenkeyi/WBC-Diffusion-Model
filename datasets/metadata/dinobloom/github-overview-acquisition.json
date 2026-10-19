@@ -1,0 +1,204 @@
+{
+  "inventory_source": "https://github.com/marrlab/DinoBloom",
+  "retrieved_date": "2026-10-15",
+  "note": "Archive checksums below were computed locally after download. Image counts come from read-only inventories. Dataset source labels are kept native and task types remain separate.",
+  "sources": [
+    {
+      "source_id": "raabin-wbc",
+      "release": "official cropped, double-labeled Train component",
+      "source_url": "https://raabindata.com/",
+      "archive": "/projects/_hdd/keyi005hdd/dinobloom/archives/raabin-wbc-train.rar",
+      "archive_bytes": 292300976,
+      "archive_sha256": "ac41ebc1547d9c5c70153fe1b5a1303630ad44643b8fa99cc72dccbe31b9ca31",
+      "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/raabin-wbc-train",
+      "image_count": 10175,
+      "decode_errors": 0,
+      "native_class_counts": {
+        "Basophil": 212,
+        "Eosinophil": 744,
+        "Lymphocyte": 2427,
+        "Monocyte": 561,
+        "Neutrophil": 6231
+      },
+      "license_note": "Source says free access and requests citation; no separate license identifier shown."
+    },
+    {
+      "source_id": "krd-wbc",
+      "release": "Mendeley V2",
+      "source_url": "https://data.mendeley.com/datasets/jzdj6h7gms/2",
+      "license": "CC BY 4.0",
+      "archive": "/projects/_hdd/keyi005hdd/dinobloom/archives/krd-wbc-v2.zip",
+      "archive_bytes": 22546493,
+      "archive_sha256": "1acb3251d2d0221a4e04defd4879d67967649df11a94ee357cd5cfeec3ef6685",
+      "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/krd-wbc-v2",
+      "image_count": 600,
+      "mask_count": 600,
+      "decode_errors": 0,
+      "native_class_counts": {
+        "Basophil": 20,
+        "Eosinophil": 11,
+        "Lymphocyte": 230,
+        "Monocyte": 39,
+        "Neutrophil": 300
+      }
+    },
+    {
+      "source_id": "white-blood-cell-dataset",
+      "release": "author GitHub main, downloaded 2026-10-14",
+      "source_url": "https://github.com/arbackes/White-Blood-Cell-dataset",
+      "license": "No dataset/repository license file was present in the downloaded repository snapshot.",
+      "archive": "/projects/_hdd/keyi005hdd/dinobloom/archives/white-blood-cell-dataset-github-main.zip",
+      "archive_bytes": 7795969,
+      "archive_sha256": "77db0e6a424dddeaf539720de4c6d1cf206c37a052ef163dd93d062fa09842d7",
+      "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/white-blood-cell-dataset-github-main",
+      "image_count": 367,
+      "mask_count": 367,
+      "decode_errors": 0,
+      "native_class_counts": null,
+      "label_note": "Segmentation source; no WBC morphology class table is supplied."
+    },
+    {
+      "source_id": "ssl-seg",
+      "release": "author GitHub master, downloaded 2026-10-14",
+      "source_url": "https://github.com/zxaoyou/segmentation_WBC",
+      "license": "GPL-3.0 repository license; source acquisition/use conditions should be retained with the data.",
+      "archive": "/projects/_hdd/keyi005hdd/dinobloom/archives/ssl-seg-github-master.zip",
+      "archive_bytes": 23430991,
+      "archive_sha256": "a0a264d41a205e464fce26ebfaf77de30601af767ca2edca8a6d05120395ecd2",
+      "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/ssl-seg-github-master",
+      "source_image_count": 400,
+      "decode_errors": 0,
+      "native_class_counts": {
+        "dataset_1": {
+          "neutrophil": 176,
+          "lymphocyte": 53,
+          "monocyte": 48,
+          "eosinophil": 22,
+          "basophil": 1
+        },
+        "dataset_2": {
+          "neutrophil": 33,
+          "lymphocyte": 37,
+          "monocyte": 15,
+          "eosinophil": 12,
+          "basophil": 3
+        }
+      },
+      "label_note": "README warns that some class labels were assigned by repository authors and were not expert-verified."
+    },
+    {
+      "source_id": "aslan",
+      "release": "author GitHub master, downloaded 2026-10-14",
+      "source_url": "https://github.com/draaslan/blood-cell-detection-dataset",
+      "license": "MIT repository license",
+      "archive": "/projects/_hdd/keyi005hdd/dinobloom/archives/aslan-detection-github-master.zip",
+      "archive_bytes": 12877062,
+      "archive_sha256": "af4e4a0d180dcc6f3073f8c5ee035bab8c7c57a7bb24c4d6456ccb453fd54197",
+      "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/aslan-detection-github-master",
+      "image_count": 100,
+      "decode_errors": 0,
+      "native_box_counts": {
+        "rbc": 2236,
+        "wbc": 103
+      }
+    },
+    {
+      "source_id": "bccd",
+      "release": "Kaggle dataset archive, updated 2022-12-21",
+      "source_url": "https://www.kaggle.com/datasets/konstantinazov/bccd-dataset",
+      "license": "Archive includes MIT License (copyright shenggan, 2017); Kaggle dataset license field unknown.",
+      "archive": "/projects/_hdd/keyi005hdd/dinobloom/archives/bccd-kaggle.zip",
+      "archive_bytes": 7911685,
+      "archive_sha256": "a7ac61c3ac063c314f40c02b276108c78b58f76e0abc370dd22d2f31798fd541",
+      "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/bccd-kaggle",
+      "image_files_in_inventory": 365,
+      "dataset_images_with_annotations": 364,
+      "decode_errors": 0,
+      "native_box_counts": {
+        "RBC": 4155,
+        "WBC": 372,
+        "Platelets": 361
+      },
+      "license_note": "Confirm image/annotation rights at source before public redistribution."
+    },
+    {
+      "source_id": "apl-aml",
+      "release": "Kaggle dataset snapshot, updated 2020-07-09",
+      "source_url": "https://www.kaggle.com/datasets/eugeneshenderov/acute-promyelocytic-leukemia-apl",
+      "license": "Unknown (Kaggle API metadata licenseName=Unknown; no archive license file identified).",
+      "archive": "/projects/_hdd/keyi005hdd/dinobloom/archives/apl-aml-kaggle.zip",
+      "archive_bytes": 538757337,
+      "archive_sha256": "9819e2990702f1a52d14ccdd080de984113219f0fdd5c0db51a0638f65beb284",
+      "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/apl-aml-kaggle",
+      "jpg_count": 25724,
+      "decode_errors": 3,
+      "signed_class_image_counts": {
+        "Blast, no lineage spec": 3310,
+        "Lymphocyte": 3435,
+        "Smudge cells": 2931,
+        "Monocyte": 1319,
+        "Promonocyte": 71,
+        "Segmented neutrophils": 2092,
+        "Plasma cells": 58,
+        "Erythroblast": 521,
+        "Band neutrophils": 171,
+        "Promyelocyte": 688,
+        "Myelocyte": 181,
+        "Basophil": 53,
+        "Lymphocyte, variant": 471,
+        "Metamyelocyte": 78,
+        "Giant thrombocyte": 66,
+        "Eosinophils": 108,
+        "Thrombocyte aggregation": 22,
+        "Prolymphocyte": 1,
+        "Arifact": 25,
+        "Unidentified": 24,
+        "Young Unidentified": 7
+      },
+      "unsigned_slide_images": 8947,
+      "patient_counts": {
+        "APL": 34,
+        "AML": 72
+      },
+      "patient_table_rows": 106,
+      "non_image_db_files": 191,
+      "license_note": "Do not redistribute; license status needs resolution before public/research release.",
+      "unsigned_slide_images_raw": 10092,
+      "unsigned_slide_images_decodable": 10089,
+      "decode_error_by_native_folder": {
+        "Unsigned slides": 3
+      }
+    },
+    {
+      "source_id": "warty-pig",
+      "release": "public Google Drive folder snapshot, 2026-10-15",
+      "source_url": "https://drive.google.com/drive/folders/1CsDoL448kvAtFVd5jowVJGKjFLv3qjz4",
+      "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/warty-pig-v1",
+      "manifest": "datasets/metadata/dinobloom/warty-pig-drive-manifest.json",
+      "inventory": "datasets/metadata/dinobloom/warty-pig-v1-inventory.json",
+      "file_count": 3541,
+      "total_bytes": 2128515810,
+      "image_count": 3539,
+      "decode_errors": 0,
+      "root_original_images": 667,
+      "native_class_counts": {
+        "augmented": {
+          "Basophil": 447,
+          "Eosinophil": 405,
+          "Monocyte": 418,
+          "Neutrophil": 194
+        },
+        "cropped_classified": {
+          "Basophil": 20,
+          "Eosinophil": 82,
+          "Lymphocyte": 905,
+          "Monocyte": 82,
+          "Neutrophil": 319
+        }
+      },
+      "label_note": "Counts are folder-labelled image files within the supplied augmented and cropped-classified groups; these are derivative/group-specific counts and must not be summed as independent original samples. The Original directory contains 667 images without an inspected class label directory. Two feature workbooks were preserved; the augmented workbook has 1,328 rows while its folder tree has 1,464 images, so it is not used as a class count source.",
+      "file_verification": "Every Drive file verified against listed size and MD5 checksum; this directory was downloaded without a packaged archive SHA-256.",
+      "license_note": "No explicit license identified from the linked public Drive folder; confirm before redistribution."
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="190" viewBox="0 0 940 190">
+<style>text{font-family:Arial,sans-serif;fill:#20242b}.title{font-size:20px;font-weight:700}.meta{font-size:13px;fill:#565e6b}.label{font-size:14px}.value{font-size:13px}.axis{stroke:#c8cdd5;stroke-width:1}</style>
+<text class="title" x="235" y="32">apl-aml · Kaggle snapshot 2020-07-09 · all-patients · patient-level-diagnosis</text>
+<text class="meta" x="235" y="56">N = 106 · count basis: patients</text>
+<line class="axis" x1="235" y1="77" x2="235" y2="161"/>
+<text class="label" x="223" y="104" text-anchor="end">AML</text>
+<rect x="235" y="86" width="610" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="854" y="103">72 (67.92%)</text>
+<text class="label" x="223" y="140" text-anchor="end">APL</text>
+<rect x="235" y="122" width="288" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="532" y="139">34 (32.08%)</text>
+</svg>

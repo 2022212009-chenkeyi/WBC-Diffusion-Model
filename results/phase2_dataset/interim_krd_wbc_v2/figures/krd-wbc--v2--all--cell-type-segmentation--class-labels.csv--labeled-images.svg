@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="298" viewBox="0 0 940 298">
+<style>text{font-family:Arial,sans-serif;fill:#20242b}.title{font-size:20px;font-weight:700}.meta{font-size:13px;fill:#565e6b}.label{font-size:14px}.value{font-size:13px}.axis{stroke:#c8cdd5;stroke-width:1}</style>
+<text class="title" x="235" y="32">krd-wbc · v2 · all · cell-type-segmentation</text>
+<text class="meta" x="235" y="56">N = 600 · count basis: labeled-images</text>
+<line class="axis" x1="235" y1="77" x2="235" y2="269"/>
+<text class="label" x="223" y="104" text-anchor="end">Neutrophil</text>
+<rect x="235" y="86" width="610" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="854" y="103">300 (50.00%)</text>
+<text class="label" x="223" y="140" text-anchor="end">Lymphocyte</text>
+<rect x="235" y="122" width="468" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="712" y="139">230 (38.33%)</text>
+<text class="label" x="223" y="176" text-anchor="end">Monocyte</text>
+<rect x="235" y="158" width="79" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="323" y="175">39 (6.50%)</text>
+<text class="label" x="223" y="212" text-anchor="end">Basophil</text>
+<rect x="235" y="194" width="41" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="285" y="211">20 (3.33%)</text>
+<text class="label" x="223" y="248" text-anchor="end">Eosinophil</text>
+<rect x="235" y="230" width="22" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="266" y="247">11 (1.83%)</text>
+</svg>

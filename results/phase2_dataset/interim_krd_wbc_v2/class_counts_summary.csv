@@ -1,0 +1,6 @@
+source_id,release,split,task,label_schema,native_label,count,count_basis,data_role,analysis_class,harmonization_id,group_total,share_pct
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Basophil,20,labeled-images,cohort-source,,,600,3.3333
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Eosinophil,11,labeled-images,cohort-source,,,600,1.8333
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Lymphocyte,230,labeled-images,cohort-source,,,600,38.3333
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Monocyte,39,labeled-images,cohort-source,,,600,6.5
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Neutrophil,300,labeled-images,cohort-source,,,600,50.0

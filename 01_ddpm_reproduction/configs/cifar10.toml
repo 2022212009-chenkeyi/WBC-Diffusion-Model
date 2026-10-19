@@ -1,0 +1,45 @@
+[experiment]
+id = "DDPM-C10-001"
+name = "ddpm-cifar10-reference"
+seed = 2026
+output_dir = "/projects/keyi005ssd/WBCDiffusion"
+
+[data]
+root = "/projects/keyi005ssd/WBCDiffusion/datasets/cifar10"
+batch_size = 128
+num_workers = 4
+horizontal_flip = true
+
+[model]
+image_size = 32
+channels = 3
+base_channels = 128
+channel_multipliers = [1, 2, 2, 2]
+residual_blocks = 2
+attention_resolution = 16
+dropout = 0.1
+
+[diffusion]
+timesteps = 1000
+beta_start = 0.0001
+beta_end = 0.02
+prediction = "epsilon"
+variance = "fixed_large"
+
+[training]
+steps = 800000
+learning_rate = 0.0002
+warmup_steps = 5000
+gradient_clip = 1.0
+ema_decay = 0.9999
+checkpoint_every = 10000
+keep_checkpoints = 3
+sample_every = 50000
+sample_count = 64
+precision = "float32"
+
+[evaluation]
+sample_count = 50000
+sample_batch_size = 32
+kid_subsets = 100
+kid_subset_size = 1000

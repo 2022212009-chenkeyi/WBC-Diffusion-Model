@@ -1,0 +1,31 @@
+{
+  "source": "TCIA AML-Cytomorphology_LMU",
+  "release": "v1",
+  "collection_page": "https://www.cancerimagingarchive.net/collection/aml-cytomorphology_lmu/",
+  "annotations_download": "https://www.cancerimagingarchive.net/wp-content/uploads/AML-CYTOMORPHOLOGY_LMU-annotations-dat.zip",
+  "abbreviations_download": "https://www.cancerimagingarchive.net/wp-content/uploads/abbreviations.txt",
+  "license": "CC BY 3.0 (collection page)",
+  "annotation_archive_bytes": 33201,
+  "annotation_archive_sha256": "4db78414ad9c3a2e493a6516be92d093992b310060c9575364dc502ff4e4cc31",
+  "annotation_records": 18365,
+  "primary_native_class_counts": {
+    "BAS": 79,
+    "EBO": 78,
+    "EOS": 424,
+    "KSC": 15,
+    "LYA": 11,
+    "LYT": 3937,
+    "MMZ": 15,
+    "MOB": 26,
+    "MON": 1789,
+    "MYB": 42,
+    "MYO": 3268,
+    "NGB": 109,
+    "NGS": 8484,
+    "PMB": 18,
+    "PMO": 70
+  },
+  "records_with_any_reannotation": 1905,
+  "image_archive_status": "not downloaded",
+  "count_note": "Counts are annotation records, not a verified inventory of downloaded/decoded TIFF files."
+}

@@ -1,0 +1,81 @@
+source_id,release,split,task,label_schema,native_label,count,count_basis,data_role,analysis_class,harmonization_id,group_total,share_pct
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,neutrophil,3329,decodable-images,external-holdout,,,17092,19.4769
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,eosinophil,3117,decodable-images,external-holdout,,,17092,18.2366
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,ig,2895,decodable-images,external-holdout,,,17092,16.9377
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,platelet,2348,decodable-images,external-holdout,,,17092,13.7374
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,erythroblast,1551,decodable-images,external-holdout,,,17092,9.0744
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,monocyte,1420,decodable-images,external-holdout,,,17092,8.308
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,basophil,1218,decodable-images,external-holdout,,,17092,7.1261
+acevedo,v1,not-reported,cell-category,Mendeley eight-group description,lymphocyte,1214,decodable-images,external-holdout,,,17092,7.1027
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,BAS,79,annotation-records,cohort-source,,,18365,0.4302
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,EBO,78,annotation-records,cohort-source,,,18365,0.4247
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,EOS,424,annotation-records,cohort-source,,,18365,2.3087
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,KSC,15,annotation-records,cohort-source,,,18365,0.0817
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,LYA,11,annotation-records,cohort-source,,,18365,0.0599
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,LYT,3937,annotation-records,cohort-source,,,18365,21.4375
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MMZ,15,annotation-records,cohort-source,,,18365,0.0817
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MOB,26,annotation-records,cohort-source,,,18365,0.1416
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MON,1789,annotation-records,cohort-source,,,18365,9.7414
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MYB,42,annotation-records,cohort-source,,,18365,0.2287
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MYO,3268,annotation-records,cohort-source,,,18365,17.7947
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,NGB,109,annotation-records,cohort-source,,,18365,0.5935
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,NGS,8484,annotation-records,cohort-source,,,18365,46.1966
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,PMB,18,annotation-records,cohort-source,,,18365,0.098
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,PMO,70,annotation-records,cohort-source,,,18365,0.3812
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Basophil,212,decodable-images,cohort-source,,,10175,2.0835
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Eosinophil,744,decodable-images,cohort-source,,,10175,7.312
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Lymphocyte,2427,decodable-images,cohort-source,,,10175,23.8526
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Monocyte,561,decodable-images,cohort-source,,,10175,5.5135
+raabin-wbc,Train,train,cell-type-classification,official Train class folders,Neutrophil,6231,decodable-images,cohort-source,,,10175,61.2383
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Basophil,20,labeled-images,cohort-source,,,600,3.3333
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Eosinophil,11,labeled-images,cohort-source,,,600,1.8333
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Lymphocyte,230,labeled-images,cohort-source,,,600,38.3333
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Monocyte,39,labeled-images,cohort-source,,,600,6.5
+krd-wbc,v2,all,cell-type-segmentation,class labels.csv,Neutrophil,300,labeled-images,cohort-source,,,600,50.0
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,basophil,1,labeled-images,cohort-source,,,300,0.3333
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,eosinophil,22,labeled-images,cohort-source,,,300,7.3333
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,lymphocyte,53,labeled-images,cohort-source,,,300,17.6667
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,monocyte,48,labeled-images,cohort-source,,,300,16.0
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,neutrophil,176,labeled-images,cohort-source,,,300,58.6667
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,basophil,3,labeled-images,cohort-source,,,100,3.0
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,eosinophil,12,labeled-images,cohort-source,,,100,12.0
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,lymphocyte,37,labeled-images,cohort-source,,,100,37.0
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,monocyte,15,labeled-images,cohort-source,,,100,15.0
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,neutrophil,33,labeled-images,cohort-source,,,100,33.0
+aslan,github-master,all,object-detection,annotations.csv label,rbc,2236,bounding-box-annotations,cohort-source,,,2339,95.5964
+aslan,github-master,all,object-detection,annotations.csv label,wbc,103,bounding-box-annotations,cohort-source,,,2339,4.4036
+bccd,Kaggle dataset snapshot 2022-12-21,all,object-detection,BCCD XML object name,Platelets,361,bounding-box-annotations,cohort-source,,,4888,7.3854
+bccd,Kaggle dataset snapshot 2022-12-21,all,object-detection,BCCD XML object name,RBC,4155,bounding-box-annotations,cohort-source,,,4888,85.0041
+bccd,Kaggle dataset snapshot 2022-12-21,all,object-detection,BCCD XML object name,WBC,372,bounding-box-annotations,cohort-source,,,4888,7.6105
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Arifact,25,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.1599
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Band neutrophils,171,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,1.0939
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Basophil,53,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.339
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,"Blast, no lineage spec",3310,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,21.1745
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Eosinophils,108,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.6909
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Erythroblast,521,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,3.3329
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Giant thrombocyte,66,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.4222
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Lymphocyte,3435,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,21.9742
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,"Lymphocyte, variant",471,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,3.0131
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Metamyelocyte,78,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.499
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Monocyte,1319,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,8.4378
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Myelocyte,181,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,1.1579
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Plasma cells,58,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.371
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Prolymphocyte,1,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.0064
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Promonocyte,71,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.4542
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Promyelocyte,688,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,4.4012
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Segmented neutrophils,2092,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,13.3828
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Smudge cells,2931,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,18.75
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Thrombocyte aggregation,22,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.1407
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Unidentified,24,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.1535
+apl-aml,Kaggle snapshot 2020-07-09,signed-slides,cell-morphology-classification,native patient folder / nested Signed slides class folders,Young Unidentified,7,decodable-jpg-files-in-native-class-folder,cohort-source,,,15632,0.0448
+apl-aml,Kaggle snapshot 2020-07-09,all-patients,patient-level-diagnosis,master.csv Diagnosis,AML,72,patients,cohort-source,,,106,67.9245
+apl-aml,Kaggle snapshot 2020-07-09,all-patients,patient-level-diagnosis,master.csv Diagnosis,APL,34,patients,cohort-source,,,106,32.0755
+warty-pig,public-drive-snapshot-2026-10-15,augmented,cell-type-classification,Google Drive class-folder names,Basophil,447,directory-labelled-image-files,cohort-source,,,1464,30.5328
+warty-pig,public-drive-snapshot-2026-10-15,augmented,cell-type-classification,Google Drive class-folder names,Eosinophil,405,directory-labelled-image-files,cohort-source,,,1464,27.6639
+warty-pig,public-drive-snapshot-2026-10-15,augmented,cell-type-classification,Google Drive class-folder names,Monocyte,418,directory-labelled-image-files,cohort-source,,,1464,28.5519
+warty-pig,public-drive-snapshot-2026-10-15,augmented,cell-type-classification,Google Drive class-folder names,Neutrophil,194,directory-labelled-image-files,cohort-source,,,1464,13.2514
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Basophil,20,directory-labelled-image-files,cohort-source,,,1408,1.4205
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Eosinophil,82,directory-labelled-image-files,cohort-source,,,1408,5.8239
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Lymphocyte,905,directory-labelled-image-files,cohort-source,,,1408,64.2756
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Monocyte,82,directory-labelled-image-files,cohort-source,,,1408,5.8239
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Neutrophil,319,directory-labelled-image-files,cohort-source,,,1408,22.6562

@@ -1,0 +1,27 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Local credentials and machine-specific secrets
+.env
+.env.*
+!.env.example
+credentials/
+secrets/
+
+# Runtime output and editor/OS artifacts
+*.log
+.DS_Store
+*.swp
+*.swo
+
+# Large local data and training artifacts
+datasets/raw/
+datasets/processed/
+datasets/staging/
+checkpoints/*
+!checkpoints/.gitkeep
+

@@ -1,0 +1,11 @@
+source_id,release,split,task,label_schema,native_label,count,count_basis,data_role,analysis_class,harmonization_id
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,basophil,1,labeled-images,cohort-source,,
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,eosinophil,22,labeled-images,cohort-source,,
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,lymphocyte,53,labeled-images,cohort-source,,
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,monocyte,48,labeled-images,cohort-source,,
+ssl-seg,github-master,dataset-1,cell-type-segmentation,Class Labels of Dataset 1.csv,neutrophil,176,labeled-images,cohort-source,,
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,basophil,3,labeled-images,cohort-source,,
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,eosinophil,12,labeled-images,cohort-source,,
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,lymphocyte,37,labeled-images,cohort-source,,
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,monocyte,15,labeled-images,cohort-source,,
+ssl-seg,github-master,dataset-2,cell-type-segmentation,Class Labels of Dataset 2.csv,neutrophil,33,labeled-images,cohort-source,,

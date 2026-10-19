@@ -1,0 +1,4424 @@
+{
+  "root": "/projects/_hdd/keyi005hdd/dinobloom/raw/white-blood-cell-dataset-github-main/White-Blood-Cell-dataset-main/masks",
+  "note": "Immediate-parent counts describe directory structure only; they are not asserted to be semantic class counts.",
+  "summary": {
+    "file_count": 367,
+    "image_count_by_extension": 367,
+    "image_decode_errors": 0,
+    "extensions": {
+      ".png": 367
+    },
+    "files_by_top_level_directory": {
+      "BloodImageSetS6NucSeg_masks": 367
+    },
+    "exact_duplicate_groups": 0,
+    "hashing_enabled": false
+  },
+  "exact_duplicate_groups": [],
+  "files": [
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00000.png",
+      "size_bytes": 927,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00001.png",
+      "size_bytes": 664,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00002.png",
+      "size_bytes": 621,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00003.png",
+      "size_bytes": 799,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00004.png",
+      "size_bytes": 787,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00005.png",
+      "size_bytes": 806,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00006.png",
+      "size_bytes": 779,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00007.png",
+      "size_bytes": 621,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00008.png",
+      "size_bytes": 602,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00009.png",
+      "size_bytes": 924,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00010.png",
+      "size_bytes": 1269,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00011.png",
+      "size_bytes": 813,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00012.png",
+      "size_bytes": 764,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00013.png",
+      "size_bytes": 708,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00014.png",
+      "size_bytes": 565,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00015.png",
+      "size_bytes": 734,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00016.png",
+      "size_bytes": 566,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00017.png",
+      "size_bytes": 642,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00018.png",
+      "size_bytes": 526,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00019.png",
+      "size_bytes": 621,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00020.png",
+      "size_bytes": 369,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00021.png",
+      "size_bytes": 511,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00022.png",
+      "size_bytes": 509,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00023.png",
+      "size_bytes": 617,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00024.png",
+      "size_bytes": 480,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00026.png",
+      "size_bytes": 399,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00028.png",
+      "size_bytes": 561,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00029.png",
+      "size_bytes": 635,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00030.png",
+      "size_bytes": 567,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00031.png",
+      "size_bytes": 751,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00032.png",
+      "size_bytes": 500,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00033.png",
+      "size_bytes": 493,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00034.png",
+      "size_bytes": 990,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00035.png",
+      "size_bytes": 503,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00036.png",
+      "size_bytes": 770,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00037.png",
+      "size_bytes": 401,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00038.png",
+      "size_bytes": 400,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00039.png",
+      "size_bytes": 550,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00040.png",
+      "size_bytes": 722,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00041.png",
+      "size_bytes": 628,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00042.png",
+      "size_bytes": 452,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00043.png",
+      "size_bytes": 952,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00044.png",
+      "size_bytes": 715,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00045.png",
+      "size_bytes": 439,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00046.png",
+      "size_bytes": 384,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00047.png",
+      "size_bytes": 425,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00048.png",
+      "size_bytes": 592,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00049.png",
+      "size_bytes": 495,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00050.png",
+      "size_bytes": 534,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00052.png",
+      "size_bytes": 502,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00053.png",
+      "size_bytes": 486,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00054.png",
+      "size_bytes": 406,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00055.png",
+      "size_bytes": 410,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00056.png",
+      "size_bytes": 475,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00057.png",
+      "size_bytes": 443,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00058.png",
+      "size_bytes": 501,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00059.png",
+      "size_bytes": 530,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00062.png",
+      "size_bytes": 683,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00063.png",
+      "size_bytes": 613,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00064.png",
+      "size_bytes": 436,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00065.png",
+      "size_bytes": 3318,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00066.png",
+      "size_bytes": 595,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00067.png",
+      "size_bytes": 522,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00068.png",
+      "size_bytes": 399,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00069.png",
+      "size_bytes": 515,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00070.png",
+      "size_bytes": 650,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00071.png",
+      "size_bytes": 539,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00072.png",
+      "size_bytes": 489,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00073.png",
+      "size_bytes": 436,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00074.png",
+      "size_bytes": 452,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00075.png",
+      "size_bytes": 468,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00076.png",
+      "size_bytes": 445,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00077.png",
+      "size_bytes": 471,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00078.png",
+      "size_bytes": 598,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00079.png",
+      "size_bytes": 458,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00081.png",
+      "size_bytes": 508,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00082.png",
+      "size_bytes": 466,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00083.png",
+      "size_bytes": 515,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00086.png",
+      "size_bytes": 545,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00087.png",
+      "size_bytes": 402,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00088.png",
+      "size_bytes": 461,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00089.png",
+      "size_bytes": 524,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00090.png",
+      "size_bytes": 437,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00091.png",
+      "size_bytes": 530,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00092.png",
+      "size_bytes": 2828,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00093.png",
+      "size_bytes": 416,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00094.png",
+      "size_bytes": 755,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00095.png",
+      "size_bytes": 912,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00096.png",
+      "size_bytes": 694,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00097.png",
+      "size_bytes": 1053,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00098.png",
+      "size_bytes": 834,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00099.png",
+      "size_bytes": 481,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00100.png",
+      "size_bytes": 665,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00101.png",
+      "size_bytes": 541,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00103.png",
+      "size_bytes": 537,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00104.png",
+      "size_bytes": 732,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00106.png",
+      "size_bytes": 659,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00107.png",
+      "size_bytes": 655,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00108.png",
+      "size_bytes": 607,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00109.png",
+      "size_bytes": 653,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00110.png",
+      "size_bytes": 3004,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00111.png",
+      "size_bytes": 408,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00112.png",
+      "size_bytes": 518,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00113.png",
+      "size_bytes": 595,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00114.png",
+      "size_bytes": 615,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00115.png",
+      "size_bytes": 659,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00117.png",
+      "size_bytes": 876,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00120.png",
+      "size_bytes": 480,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00123.png",
+      "size_bytes": 795,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00124.png",
+      "size_bytes": 641,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00125.png",
+      "size_bytes": 568,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00126.png",
+      "size_bytes": 631,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00127.png",
+      "size_bytes": 604,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00130.png",
+      "size_bytes": 542,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00132.png",
+      "size_bytes": 560,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00133.png",
+      "size_bytes": 413,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00134.png",
+      "size_bytes": 2867,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00135.png",
+      "size_bytes": 573,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00136.png",
+      "size_bytes": 689,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00137.png",
+      "size_bytes": 694,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00139.png",
+      "size_bytes": 566,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00140.png",
+      "size_bytes": 463,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00141.png",
+      "size_bytes": 779,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00142.png",
+      "size_bytes": 516,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00143.png",
+      "size_bytes": 521,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00144.png",
+      "size_bytes": 526,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00145.png",
+      "size_bytes": 696,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00147.png",
+      "size_bytes": 516,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00148.png",
+      "size_bytes": 440,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00149.png",
+      "size_bytes": 466,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00150.png",
+      "size_bytes": 497,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00152.png",
+      "size_bytes": 580,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00154.png",
+      "size_bytes": 477,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00156.png",
+      "size_bytes": 525,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00157.png",
+      "size_bytes": 551,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00158.png",
+      "size_bytes": 652,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00159.png",
+      "size_bytes": 618,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00160.png",
+      "size_bytes": 780,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00161.png",
+      "size_bytes": 743,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00162.png",
+      "size_bytes": 895,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00163.png",
+      "size_bytes": 627,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00164.png",
+      "size_bytes": 670,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00165.png",
+      "size_bytes": 847,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00166.png",
+      "size_bytes": 687,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00167.png",
+      "size_bytes": 692,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00168.png",
+      "size_bytes": 1002,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00169.png",
+      "size_bytes": 804,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00170.png",
+      "size_bytes": 762,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00171.png",
+      "size_bytes": 1353,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00172.png",
+      "size_bytes": 578,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00174.png",
+      "size_bytes": 754,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00175.png",
+      "size_bytes": 820,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00176.png",
+      "size_bytes": 961,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00177.png",
+      "size_bytes": 596,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00178.png",
+      "size_bytes": 725,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00179.png",
+      "size_bytes": 778,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00180.png",
+      "size_bytes": 376,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00182.png",
+      "size_bytes": 611,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00183.png",
+      "size_bytes": 759,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00184.png",
+      "size_bytes": 662,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00187.png",
+      "size_bytes": 660,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00189.png",
+      "size_bytes": 669,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00190.png",
+      "size_bytes": 829,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00191.png",
+      "size_bytes": 474,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00192.png",
+      "size_bytes": 653,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00193.png",
+      "size_bytes": 1035,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00195.png",
+      "size_bytes": 679,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00196.png",
+      "size_bytes": 840,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00197.png",
+      "size_bytes": 547,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00198.png",
+      "size_bytes": 761,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00199.png",
+      "size_bytes": 860,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00200.png",
+      "size_bytes": 588,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00201.png",
+      "size_bytes": 813,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00202.png",
+      "size_bytes": 515,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00203.png",
+      "size_bytes": 772,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00204.png",
+      "size_bytes": 689,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00205.png",
+      "size_bytes": 728,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00206.png",
+      "size_bytes": 561,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00207.png",
+      "size_bytes": 719,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00208.png",
+      "size_bytes": 621,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00209.png",
+      "size_bytes": 648,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00210.png",
+      "size_bytes": 695,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00211.png",
+      "size_bytes": 392,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00212.png",
+      "size_bytes": 497,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00214.png",
+      "size_bytes": 792,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00215.png",
+      "size_bytes": 804,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00216.png",
+      "size_bytes": 788,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00217.png",
+      "size_bytes": 434,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00218.png",
+      "size_bytes": 717,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00219.png",
+      "size_bytes": 1016,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00220.png",
+      "size_bytes": 836,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00221.png",
+      "size_bytes": 729,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00222.png",
+      "size_bytes": 707,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00223.png",
+      "size_bytes": 670,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00224.png",
+      "size_bytes": 436,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00225.png",
+      "size_bytes": 953,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00226.png",
+      "size_bytes": 674,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00227.png",
+      "size_bytes": 714,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00228.png",
+      "size_bytes": 494,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00229.png",
+      "size_bytes": 523,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00230.png",
+      "size_bytes": 752,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00231.png",
+      "size_bytes": 657,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00232.png",
+      "size_bytes": 618,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00233.png",
+      "size_bytes": 394,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00234.png",
+      "size_bytes": 839,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00235.png",
+      "size_bytes": 799,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00236.png",
+      "size_bytes": 829,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00237.png",
+      "size_bytes": 684,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00239.png",
+      "size_bytes": 744,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00240.png",
+      "size_bytes": 927,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00241.png",
+      "size_bytes": 636,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00242.png",
+      "size_bytes": 886,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00243.png",
+      "size_bytes": 672,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00244.png",
+      "size_bytes": 665,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00245.png",
+      "size_bytes": 782,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00246.png",
+      "size_bytes": 828,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00247.png",
+      "size_bytes": 722,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00248.png",
+      "size_bytes": 720,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00249.png",
+      "size_bytes": 1149,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00250.png",
+      "size_bytes": 611,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00251.png",
+      "size_bytes": 711,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00252.png",
+      "size_bytes": 700,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00253.png",
+      "size_bytes": 684,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00254.png",
+      "size_bytes": 444,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00255.png",
+      "size_bytes": 3741,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00256.png",
+      "size_bytes": 703,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00257.png",
+      "size_bytes": 765,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00258.png",
+      "size_bytes": 516,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00259.png",
+      "size_bytes": 584,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00260.png",
+      "size_bytes": 722,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00261.png",
+      "size_bytes": 607,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00262.png",
+      "size_bytes": 820,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00263.png",
+      "size_bytes": 626,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00264.png",
+      "size_bytes": 454,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00265.png",
+      "size_bytes": 559,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00266.png",
+      "size_bytes": 609,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00267.png",
+      "size_bytes": 630,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00268.png",
+      "size_bytes": 755,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00269.png",
+      "size_bytes": 721,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00270.png",
+      "size_bytes": 486,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00271.png",
+      "size_bytes": 709,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00272.png",
+      "size_bytes": 590,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00273.png",
+      "size_bytes": 586,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00274.png",
+      "size_bytes": 729,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00275.png",
+      "size_bytes": 444,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00276.png",
+      "size_bytes": 719,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00277.png",
+      "size_bytes": 590,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00278.png",
+      "size_bytes": 527,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00279.png",
+      "size_bytes": 660,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00280.png",
+      "size_bytes": 723,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00281.png",
+      "size_bytes": 695,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00282.png",
+      "size_bytes": 500,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00283.png",
+      "size_bytes": 650,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00284.png",
+      "size_bytes": 893,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00285.png",
+      "size_bytes": 717,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00287.png",
+      "size_bytes": 618,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00288.png",
+      "size_bytes": 665,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00289.png",
+      "size_bytes": 634,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00290.png",
+      "size_bytes": 659,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00291.png",
+      "size_bytes": 861,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00292.png",
+      "size_bytes": 485,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00293.png",
+      "size_bytes": 638,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00294.png",
+      "size_bytes": 696,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00295.png",
+      "size_bytes": 817,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00296.png",
+      "size_bytes": 668,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00297.png",
+      "size_bytes": 787,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00298.png",
+      "size_bytes": 762,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00299.png",
+      "size_bytes": 647,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00300.png",
+      "size_bytes": 626,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00301.png",
+      "size_bytes": 601,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00302.png",
+      "size_bytes": 431,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00303.png",
+      "size_bytes": 699,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00304.png",
+      "size_bytes": 902,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00305.png",
+      "size_bytes": 465,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00307.png",
+      "size_bytes": 683,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00308.png",
+      "size_bytes": 624,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00309.png",
+      "size_bytes": 858,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00310.png",
+      "size_bytes": 718,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00311.png",
+      "size_bytes": 618,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00312.png",
+      "size_bytes": 850,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00313.png",
+      "size_bytes": 1003,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00314.png",
+      "size_bytes": 714,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00315.png",
+      "size_bytes": 615,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00317.png",
+      "size_bytes": 3305,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00318.png",
+      "size_bytes": 735,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00319.png",
+      "size_bytes": 760,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00320.png",
+      "size_bytes": 729,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00322.png",
+      "size_bytes": 766,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00323.png",
+      "size_bytes": 883,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00324.png",
+      "size_bytes": 700,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00325.png",
+      "size_bytes": 887,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00326.png",
+      "size_bytes": 3453,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00327.png",
+      "size_bytes": 674,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00329.png",
+      "size_bytes": 537,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00330.png",
+      "size_bytes": 546,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00331.png",
+      "size_bytes": 756,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00332.png",
+      "size_bytes": 863,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00333.png",
+      "size_bytes": 800,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00334.png",
+      "size_bytes": 777,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00335.png",
+      "size_bytes": 568,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00336.png",
+      "size_bytes": 850,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00337.png",
+      "size_bytes": 786,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00338.png",
+      "size_bytes": 669,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00339.png",
+      "size_bytes": 704,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00340.png",
+      "size_bytes": 492,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00341.png",
+      "size_bytes": 630,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00342.png",
+      "size_bytes": 789,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00343.png",
+      "size_bytes": 711,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00344.png",
+      "size_bytes": 921,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00345.png",
+      "size_bytes": 862,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00346.png",
+      "size_bytes": 815,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00347.png",
+      "size_bytes": 636,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00348.png",
+      "size_bytes": 817,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00349.png",
+      "size_bytes": 871,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00350.png",
+      "size_bytes": 762,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00351.png",
+      "size_bytes": 732,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00352.png",
+      "size_bytes": 970,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00353.png",
+      "size_bytes": 936,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00354.png",
+      "size_bytes": 789,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00355.png",
+      "size_bytes": 814,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00356.png",
+      "size_bytes": 532,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00357.png",
+      "size_bytes": 693,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00359.png",
+      "size_bytes": 893,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00360.png",
+      "size_bytes": 702,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00361.png",
+      "size_bytes": 766,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00362.png",
+      "size_bytes": 617,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00364.png",
+      "size_bytes": 702,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00365.png",
+      "size_bytes": 700,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00366.png",
+      "size_bytes": 550,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00367.png",
+      "size_bytes": 641,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00368.png",
+      "size_bytes": 675,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00369.png",
+      "size_bytes": 713,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00370.png",
+      "size_bytes": 799,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00371.png",
+      "size_bytes": 762,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00372.png",
+      "size_bytes": 711,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00374.png",
+      "size_bytes": 1213,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00375.png",
+      "size_bytes": 657,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00376.png",
+      "size_bytes": 715,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00377.png",
+      "size_bytes": 745,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00378.png",
+      "size_bytes": 3038,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00379.png",
+      "size_bytes": 448,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00381.png",
+      "size_bytes": 760,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00382.png",
+      "size_bytes": 791,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00383.png",
+      "size_bytes": 869,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00384.png",
+      "size_bytes": 825,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00385.png",
+      "size_bytes": 653,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00386.png",
+      "size_bytes": 739,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00387.png",
+      "size_bytes": 654,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00388.png",
+      "size_bytes": 531,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00389.png",
+      "size_bytes": 767,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00390.png",
+      "size_bytes": 730,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00391.png",
+      "size_bytes": 723,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00392.png",
+      "size_bytes": 805,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00393.png",
+      "size_bytes": 816,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00395.png",
+      "size_bytes": 781,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00396.png",
+      "size_bytes": 787,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00397.png",
+      "size_bytes": 571,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00398.png",
+      "size_bytes": 811,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00400.png",
+      "size_bytes": 851,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00402.png",
+      "size_bytes": 625,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00403.png",
+      "size_bytes": 750,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00404.png",
+      "size_bytes": 721,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00405.png",
+      "size_bytes": 641,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00407.png",
+      "size_bytes": 811,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00408.png",
+      "size_bytes": 695,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00409.png",
+      "size_bytes": 814,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "BloodImageSetS6NucSeg_masks/BloodImage_00410.png",
+      "size_bytes": 648,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "1",
+        "format": "PNG"
+      }
+    }
+  ]
+}

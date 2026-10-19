@@ -1,0 +1,3 @@
+source_id,release,split,task,label_schema,native_label,count,count_basis,data_role,analysis_class,harmonization_id
+aslan,github-master,all,object-detection,annotations.csv label,rbc,2236,bounding-box-annotations,cohort-source,,
+aslan,github-master,all,object-detection,annotations.csv label,wbc,103,bounding-box-annotations,cohort-source,,

@@ -1,0 +1,6677 @@
+{
+  "root": "/projects/_hdd/keyi005hdd/dinobloom/raw/bccd-kaggle",
+  "note": "Immediate-parent counts describe directory structure only; they are not asserted to be semantic class counts.",
+  "summary": {
+    "file_count": 743,
+    "image_count_by_extension": 365,
+    "image_decode_errors": 0,
+    "extensions": {
+      ".csv": 1,
+      ".jpg": 365,
+      ".md": 1,
+      ".py": 6,
+      ".txt": 4,
+      ".xml": 364,
+      "[none]": 2
+    },
+    "files_by_top_level_directory": {
+      ".": 7,
+      "BCCD": 732,
+      "dataset": 2,
+      "scripts": 2
+    },
+    "exact_duplicate_groups": 0,
+    "hashing_enabled": false
+  },
+  "exact_duplicate_groups": [],
+  "files": [
+    {
+      "path": ".gitignore",
+      "size_bytes": 12,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "LICENSE",
+      "size_bytes": 1065,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3129,
+      "extension": ".md",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "example.jpg",
+      "size_bytes": 66311,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "export.py",
+      "size_bytes": 1783,
+      "extension": ".py",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "plot.py",
+      "size_bytes": 3530,
+      "extension": ".py",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "test.csv",
+      "size_bytes": 203680,
+      "extension": ".csv",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00000.xml",
+      "size_bytes": 4791,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00001.xml",
+      "size_bytes": 4570,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00002.xml",
+      "size_bytes": 3905,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00003.xml",
+      "size_bytes": 4128,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00004.xml",
+      "size_bytes": 3230,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00005.xml",
+      "size_bytes": 5255,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00006.xml",
+      "size_bytes": 4369,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00007.xml",
+      "size_bytes": 4348,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00008.xml",
+      "size_bytes": 4790,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00009.xml",
+      "size_bytes": 4350,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00010.xml",
+      "size_bytes": 4340,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00011.xml",
+      "size_bytes": 4578,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00012.xml",
+      "size_bytes": 4591,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00013.xml",
+      "size_bytes": 3682,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00014.xml",
+      "size_bytes": 4582,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00015.xml",
+      "size_bytes": 3905,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00016.xml",
+      "size_bytes": 3244,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00017.xml",
+      "size_bytes": 4348,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00018.xml",
+      "size_bytes": 5240,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00019.xml",
+      "size_bytes": 4128,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00020.xml",
+      "size_bytes": 5479,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00021.xml",
+      "size_bytes": 4581,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00022.xml",
+      "size_bytes": 3920,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00023.xml",
+      "size_bytes": 4353,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00024.xml",
+      "size_bytes": 3905,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00026.xml",
+      "size_bytes": 4583,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00028.xml",
+      "size_bytes": 5236,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00029.xml",
+      "size_bytes": 5682,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00030.xml",
+      "size_bytes": 5928,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00031.xml",
+      "size_bytes": 5710,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00032.xml",
+      "size_bytes": 5919,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00033.xml",
+      "size_bytes": 4574,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00034.xml",
+      "size_bytes": 4581,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00035.xml",
+      "size_bytes": 5482,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00036.xml",
+      "size_bytes": 4795,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00037.xml",
+      "size_bytes": 7041,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00038.xml",
+      "size_bytes": 6597,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00039.xml",
+      "size_bytes": 4578,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00040.xml",
+      "size_bytes": 4364,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00041.xml",
+      "size_bytes": 4803,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00042.xml",
+      "size_bytes": 3911,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00043.xml",
+      "size_bytes": 3907,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00044.xml",
+      "size_bytes": 4826,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00045.xml",
+      "size_bytes": 5921,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00046.xml",
+      "size_bytes": 5692,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00047.xml",
+      "size_bytes": 5028,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00048.xml",
+      "size_bytes": 4129,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00049.xml",
+      "size_bytes": 4573,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00050.xml",
+      "size_bytes": 2788,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00052.xml",
+      "size_bytes": 4363,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00053.xml",
+      "size_bytes": 3466,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00054.xml",
+      "size_bytes": 3461,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00055.xml",
+      "size_bytes": 3476,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00056.xml",
+      "size_bytes": 3012,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00057.xml",
+      "size_bytes": 2801,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00058.xml",
+      "size_bytes": 2567,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00059.xml",
+      "size_bytes": 3232,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00062.xml",
+      "size_bytes": 3230,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00063.xml",
+      "size_bytes": 2562,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00064.xml",
+      "size_bytes": 2786,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00065.xml",
+      "size_bytes": 2122,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00066.xml",
+      "size_bytes": 2568,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00067.xml",
+      "size_bytes": 3008,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00068.xml",
+      "size_bytes": 3481,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00069.xml",
+      "size_bytes": 3693,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00070.xml",
+      "size_bytes": 3010,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00071.xml",
+      "size_bytes": 2339,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00072.xml",
+      "size_bytes": 1225,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00073.xml",
+      "size_bytes": 3473,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00074.xml",
+      "size_bytes": 3682,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00075.xml",
+      "size_bytes": 2783,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00076.xml",
+      "size_bytes": 3010,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00077.xml",
+      "size_bytes": 2798,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00078.xml",
+      "size_bytes": 3465,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00079.xml",
+      "size_bytes": 4129,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00081.xml",
+      "size_bytes": 4134,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00082.xml",
+      "size_bytes": 2783,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00083.xml",
+      "size_bytes": 4145,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00086.xml",
+      "size_bytes": 3702,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00087.xml",
+      "size_bytes": 2117,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00088.xml",
+      "size_bytes": 3239,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00089.xml",
+      "size_bytes": 3015,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00090.xml",
+      "size_bytes": 3686,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00091.xml",
+      "size_bytes": 2566,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00092.xml",
+      "size_bytes": 3463,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00093.xml",
+      "size_bytes": 3239,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00094.xml",
+      "size_bytes": 4575,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00095.xml",
+      "size_bytes": 4133,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00097.xml",
+      "size_bytes": 4123,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00098.xml",
+      "size_bytes": 3681,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00099.xml",
+      "size_bytes": 4362,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00100.xml",
+      "size_bytes": 4133,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00101.xml",
+      "size_bytes": 3917,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00103.xml",
+      "size_bytes": 4351,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00104.xml",
+      "size_bytes": 3907,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00106.xml",
+      "size_bytes": 4131,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00107.xml",
+      "size_bytes": 3462,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00108.xml",
+      "size_bytes": 3901,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00109.xml",
+      "size_bytes": 3011,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00110.xml",
+      "size_bytes": 3242,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00111.xml",
+      "size_bytes": 4134,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00112.xml",
+      "size_bytes": 3681,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00113.xml",
+      "size_bytes": 3232,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00114.xml",
+      "size_bytes": 3677,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00115.xml",
+      "size_bytes": 3684,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00117.xml",
+      "size_bytes": 3240,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00120.xml",
+      "size_bytes": 2563,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00123.xml",
+      "size_bytes": 2568,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00124.xml",
+      "size_bytes": 3019,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00125.xml",
+      "size_bytes": 3702,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00126.xml",
+      "size_bytes": 3011,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00127.xml",
+      "size_bytes": 1895,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00130.xml",
+      "size_bytes": 2343,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00132.xml",
+      "size_bytes": 2344,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00133.xml",
+      "size_bytes": 2568,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00134.xml",
+      "size_bytes": 1011,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00135.xml",
+      "size_bytes": 3480,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00136.xml",
+      "size_bytes": 3028,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00137.xml",
+      "size_bytes": 1672,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00139.xml",
+      "size_bytes": 3021,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00140.xml",
+      "size_bytes": 2342,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00141.xml",
+      "size_bytes": 2564,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00142.xml",
+      "size_bytes": 2352,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00143.xml",
+      "size_bytes": 1901,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00144.xml",
+      "size_bytes": 2559,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00145.xml",
+      "size_bytes": 3476,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00147.xml",
+      "size_bytes": 783,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00148.xml",
+      "size_bytes": 1677,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00149.xml",
+      "size_bytes": 2567,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00150.xml",
+      "size_bytes": 781,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00152.xml",
+      "size_bytes": 553,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00154.xml",
+      "size_bytes": 2123,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00156.xml",
+      "size_bytes": 3939,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00157.xml",
+      "size_bytes": 1226,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00158.xml",
+      "size_bytes": 1901,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00159.xml",
+      "size_bytes": 2358,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00160.xml",
+      "size_bytes": 2791,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00161.xml",
+      "size_bytes": 3456,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00162.xml",
+      "size_bytes": 3239,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00163.xml",
+      "size_bytes": 2121,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00164.xml",
+      "size_bytes": 3019,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00165.xml",
+      "size_bytes": 2787,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00166.xml",
+      "size_bytes": 3234,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00167.xml",
+      "size_bytes": 3676,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00168.xml",
+      "size_bytes": 4576,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00169.xml",
+      "size_bytes": 4121,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00170.xml",
+      "size_bytes": 3454,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00171.xml",
+      "size_bytes": 3591,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00172.xml",
+      "size_bytes": 3680,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00174.xml",
+      "size_bytes": 3675,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00175.xml",
+      "size_bytes": 2560,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00176.xml",
+      "size_bytes": 3463,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00177.xml",
+      "size_bytes": 3467,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00178.xml",
+      "size_bytes": 3347,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00179.xml",
+      "size_bytes": 3459,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00180.xml",
+      "size_bytes": 2786,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00182.xml",
+      "size_bytes": 2561,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00183.xml",
+      "size_bytes": 2572,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00184.xml",
+      "size_bytes": 2559,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00187.xml",
+      "size_bytes": 2122,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00189.xml",
+      "size_bytes": 3457,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00190.xml",
+      "size_bytes": 3465,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00191.xml",
+      "size_bytes": 3673,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00192.xml",
+      "size_bytes": 3237,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00193.xml",
+      "size_bytes": 2342,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00195.xml",
+      "size_bytes": 3242,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00196.xml",
+      "size_bytes": 2790,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00197.xml",
+      "size_bytes": 3462,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00198.xml",
+      "size_bytes": 3910,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00199.xml",
+      "size_bytes": 3015,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00200.xml",
+      "size_bytes": 2792,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00201.xml",
+      "size_bytes": 3021,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00202.xml",
+      "size_bytes": 3236,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00203.xml",
+      "size_bytes": 3020,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00204.xml",
+      "size_bytes": 4133,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00205.xml",
+      "size_bytes": 3451,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00206.xml",
+      "size_bytes": 4134,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00207.xml",
+      "size_bytes": 3239,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00208.xml",
+      "size_bytes": 3679,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00209.xml",
+      "size_bytes": 3009,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00210.xml",
+      "size_bytes": 3235,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00211.xml",
+      "size_bytes": 3235,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00212.xml",
+      "size_bytes": 3683,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00214.xml",
+      "size_bytes": 4353,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00215.xml",
+      "size_bytes": 3917,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00216.xml",
+      "size_bytes": 3905,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00217.xml",
+      "size_bytes": 3231,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00218.xml",
+      "size_bytes": 2788,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00219.xml",
+      "size_bytes": 2337,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00220.xml",
+      "size_bytes": 3023,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00221.xml",
+      "size_bytes": 3017,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00222.xml",
+      "size_bytes": 3477,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00223.xml",
+      "size_bytes": 3686,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00224.xml",
+      "size_bytes": 783,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00225.xml",
+      "size_bytes": 3455,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00226.xml",
+      "size_bytes": 4128,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00227.xml",
+      "size_bytes": 3003,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00228.xml",
+      "size_bytes": 3100,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00229.xml",
+      "size_bytes": 3247,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00230.xml",
+      "size_bytes": 2782,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00231.xml",
+      "size_bytes": 2336,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00232.xml",
+      "size_bytes": 2564,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00233.xml",
+      "size_bytes": 2345,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00234.xml",
+      "size_bytes": 2789,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00235.xml",
+      "size_bytes": 1223,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00236.xml",
+      "size_bytes": 2352,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00237.xml",
+      "size_bytes": 3007,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00239.xml",
+      "size_bytes": 3012,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00240.xml",
+      "size_bytes": 2569,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00241.xml",
+      "size_bytes": 1892,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00242.xml",
+      "size_bytes": 3911,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00243.xml",
+      "size_bytes": 3008,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00244.xml",
+      "size_bytes": 3673,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00245.xml",
+      "size_bytes": 4124,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00246.xml",
+      "size_bytes": 3464,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00247.xml",
+      "size_bytes": 3457,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00248.xml",
+      "size_bytes": 3004,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00249.xml",
+      "size_bytes": 1006,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00250.xml",
+      "size_bytes": 554,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00251.xml",
+      "size_bytes": 2341,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00252.xml",
+      "size_bytes": 2561,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00253.xml",
+      "size_bytes": 2563,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00254.xml",
+      "size_bytes": 3024,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00255.xml",
+      "size_bytes": 3011,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00256.xml",
+      "size_bytes": 1669,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00257.xml",
+      "size_bytes": 2117,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00258.xml",
+      "size_bytes": 1014,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00259.xml",
+      "size_bytes": 3035,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00260.xml",
+      "size_bytes": 1666,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00261.xml",
+      "size_bytes": 2570,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00262.xml",
+      "size_bytes": 2565,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00263.xml",
+      "size_bytes": 3687,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00264.xml",
+      "size_bytes": 3687,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00265.xml",
+      "size_bytes": 2779,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00266.xml",
+      "size_bytes": 3459,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00267.xml",
+      "size_bytes": 1235,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00268.xml",
+      "size_bytes": 552,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00269.xml",
+      "size_bytes": 2572,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00270.xml",
+      "size_bytes": 1684,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00271.xml",
+      "size_bytes": 3241,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00272.xml",
+      "size_bytes": 3453,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00273.xml",
+      "size_bytes": 3689,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00274.xml",
+      "size_bytes": 2124,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00275.xml",
+      "size_bytes": 3906,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00276.xml",
+      "size_bytes": 3692,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00277.xml",
+      "size_bytes": 3910,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00278.xml",
+      "size_bytes": 3691,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00279.xml",
+      "size_bytes": 3459,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00281.xml",
+      "size_bytes": 2784,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00282.xml",
+      "size_bytes": 3675,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00283.xml",
+      "size_bytes": 3231,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00284.xml",
+      "size_bytes": 2784,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00285.xml",
+      "size_bytes": 3240,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00287.xml",
+      "size_bytes": 3905,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00288.xml",
+      "size_bytes": 4573,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00289.xml",
+      "size_bytes": 2787,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00290.xml",
+      "size_bytes": 3007,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00291.xml",
+      "size_bytes": 2564,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00292.xml",
+      "size_bytes": 3460,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00293.xml",
+      "size_bytes": 2784,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00294.xml",
+      "size_bytes": 2789,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00295.xml",
+      "size_bytes": 3243,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00296.xml",
+      "size_bytes": 3920,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00297.xml",
+      "size_bytes": 3023,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00298.xml",
+      "size_bytes": 2567,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00299.xml",
+      "size_bytes": 2336,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00300.xml",
+      "size_bytes": 3456,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00301.xml",
+      "size_bytes": 3689,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00302.xml",
+      "size_bytes": 3236,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00303.xml",
+      "size_bytes": 552,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00304.xml",
+      "size_bytes": 3007,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00305.xml",
+      "size_bytes": 3684,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00307.xml",
+      "size_bytes": 3466,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00308.xml",
+      "size_bytes": 3007,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00309.xml",
+      "size_bytes": 3229,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00310.xml",
+      "size_bytes": 3699,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00311.xml",
+      "size_bytes": 2566,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00312.xml",
+      "size_bytes": 3039,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00313.xml",
+      "size_bytes": 3010,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00314.xml",
+      "size_bytes": 3926,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00315.xml",
+      "size_bytes": 3018,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00317.xml",
+      "size_bytes": 4376,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00318.xml",
+      "size_bytes": 3007,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00319.xml",
+      "size_bytes": 3246,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00320.xml",
+      "size_bytes": 3010,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00322.xml",
+      "size_bytes": 1244,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00323.xml",
+      "size_bytes": 1670,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00324.xml",
+      "size_bytes": 3012,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00325.xml",
+      "size_bytes": 3695,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00326.xml",
+      "size_bytes": 3013,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00327.xml",
+      "size_bytes": 790,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00330.xml",
+      "size_bytes": 554,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00331.xml",
+      "size_bytes": 3679,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00332.xml",
+      "size_bytes": 2566,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00333.xml",
+      "size_bytes": 4140,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00334.xml",
+      "size_bytes": 2792,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00335.xml",
+      "size_bytes": 3011,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00336.xml",
+      "size_bytes": 2786,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00337.xml",
+      "size_bytes": 3459,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00338.xml",
+      "size_bytes": 3458,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00339.xml",
+      "size_bytes": 4362,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00340.xml",
+      "size_bytes": 3010,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00341.xml",
+      "size_bytes": 2562,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00342.xml",
+      "size_bytes": 2339,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00343.xml",
+      "size_bytes": 3016,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00344.xml",
+      "size_bytes": 3461,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00345.xml",
+      "size_bytes": 3235,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00346.xml",
+      "size_bytes": 3453,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00347.xml",
+      "size_bytes": 4570,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00348.xml",
+      "size_bytes": 3683,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00349.xml",
+      "size_bytes": 3456,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00350.xml",
+      "size_bytes": 554,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00351.xml",
+      "size_bytes": 4138,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00352.xml",
+      "size_bytes": 3236,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00353.xml",
+      "size_bytes": 3455,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00354.xml",
+      "size_bytes": 3903,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00355.xml",
+      "size_bytes": 4593,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00356.xml",
+      "size_bytes": 4121,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00357.xml",
+      "size_bytes": 3452,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00359.xml",
+      "size_bytes": 3678,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00360.xml",
+      "size_bytes": 3241,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00361.xml",
+      "size_bytes": 3679,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00362.xml",
+      "size_bytes": 3013,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00364.xml",
+      "size_bytes": 3911,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00365.xml",
+      "size_bytes": 3917,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00366.xml",
+      "size_bytes": 3907,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00367.xml",
+      "size_bytes": 3907,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00368.xml",
+      "size_bytes": 3456,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00369.xml",
+      "size_bytes": 4803,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00370.xml",
+      "size_bytes": 3681,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00371.xml",
+      "size_bytes": 3231,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00372.xml",
+      "size_bytes": 3235,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00374.xml",
+      "size_bytes": 2786,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00375.xml",
+      "size_bytes": 3688,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00376.xml",
+      "size_bytes": 2785,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00377.xml",
+      "size_bytes": 3917,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00378.xml",
+      "size_bytes": 3898,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00379.xml",
+      "size_bytes": 4576,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00381.xml",
+      "size_bytes": 3905,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00382.xml",
+      "size_bytes": 3915,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00383.xml",
+      "size_bytes": 3015,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00384.xml",
+      "size_bytes": 2785,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00385.xml",
+      "size_bytes": 4358,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00386.xml",
+      "size_bytes": 3679,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00387.xml",
+      "size_bytes": 3242,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00388.xml",
+      "size_bytes": 2788,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00389.xml",
+      "size_bytes": 2129,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00390.xml",
+      "size_bytes": 2787,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00391.xml",
+      "size_bytes": 3682,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00392.xml",
+      "size_bytes": 3677,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00393.xml",
+      "size_bytes": 3006,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00395.xml",
+      "size_bytes": 4129,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00396.xml",
+      "size_bytes": 4811,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00397.xml",
+      "size_bytes": 4345,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00398.xml",
+      "size_bytes": 3677,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00400.xml",
+      "size_bytes": 3232,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00402.xml",
+      "size_bytes": 3688,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00403.xml",
+      "size_bytes": 4355,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00404.xml",
+      "size_bytes": 3683,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00405.xml",
+      "size_bytes": 3677,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00407.xml",
+      "size_bytes": 4590,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00408.xml",
+      "size_bytes": 4353,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00409.xml",
+      "size_bytes": 4590,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/Annotations/BloodImage_00410.xml",
+      "size_bytes": 4374,
+      "extension": ".xml",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/ImageSets/Main/test.txt",
+      "size_bytes": 1224,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/ImageSets/Main/train.txt",
+      "size_bytes": 3485,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/ImageSets/Main/trainval.txt",
+      "size_bytes": 4964,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/ImageSets/Main/val.txt",
+      "size_bytes": 1479,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00000.jpg",
+      "size_bytes": 23302,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00001.jpg",
+      "size_bytes": 22811,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00002.jpg",
+      "size_bytes": 22257,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00003.jpg",
+      "size_bytes": 22230,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00004.jpg",
+      "size_bytes": 21833,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00005.jpg",
+      "size_bytes": 22157,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00006.jpg",
+      "size_bytes": 21324,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00007.jpg",
+      "size_bytes": 20919,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00008.jpg",
+      "size_bytes": 22822,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00009.jpg",
+      "size_bytes": 23474,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00010.jpg",
+      "size_bytes": 23711,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00011.jpg",
+      "size_bytes": 21217,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00012.jpg",
+      "size_bytes": 20905,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00013.jpg",
+      "size_bytes": 21460,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00014.jpg",
+      "size_bytes": 20847,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00015.jpg",
+      "size_bytes": 20988,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00016.jpg",
+      "size_bytes": 20358,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00017.jpg",
+      "size_bytes": 21181,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00018.jpg",
+      "size_bytes": 21428,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00019.jpg",
+      "size_bytes": 20778,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00020.jpg",
+      "size_bytes": 20662,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00021.jpg",
+      "size_bytes": 19345,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00022.jpg",
+      "size_bytes": 20792,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00023.jpg",
+      "size_bytes": 20530,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00024.jpg",
+      "size_bytes": 19667,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00026.jpg",
+      "size_bytes": 21127,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00028.jpg",
+      "size_bytes": 22018,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00029.jpg",
+      "size_bytes": 20855,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00030.jpg",
+      "size_bytes": 21437,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00031.jpg",
+      "size_bytes": 20963,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00032.jpg",
+      "size_bytes": 21095,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00033.jpg",
+      "size_bytes": 20060,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00034.jpg",
+      "size_bytes": 20097,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00035.jpg",
+      "size_bytes": 20952,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00036.jpg",
+      "size_bytes": 21399,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00037.jpg",
+      "size_bytes": 21627,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00038.jpg",
+      "size_bytes": 20886,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00039.jpg",
+      "size_bytes": 20090,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00040.jpg",
+      "size_bytes": 19328,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00041.jpg",
+      "size_bytes": 20459,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00042.jpg",
+      "size_bytes": 20366,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00043.jpg",
+      "size_bytes": 20886,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00044.jpg",
+      "size_bytes": 21103,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00045.jpg",
+      "size_bytes": 21074,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00046.jpg",
+      "size_bytes": 21046,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00047.jpg",
+      "size_bytes": 19690,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00048.jpg",
+      "size_bytes": 21524,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00049.jpg",
+      "size_bytes": 21058,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00050.jpg",
+      "size_bytes": 20353,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00052.jpg",
+      "size_bytes": 20999,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00053.jpg",
+      "size_bytes": 21031,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00054.jpg",
+      "size_bytes": 20234,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00055.jpg",
+      "size_bytes": 18720,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00056.jpg",
+      "size_bytes": 20876,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00057.jpg",
+      "size_bytes": 19461,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00058.jpg",
+      "size_bytes": 19337,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00059.jpg",
+      "size_bytes": 20212,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00062.jpg",
+      "size_bytes": 20060,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00063.jpg",
+      "size_bytes": 20212,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00064.jpg",
+      "size_bytes": 21121,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00065.jpg",
+      "size_bytes": 18838,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00066.jpg",
+      "size_bytes": 18504,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00067.jpg",
+      "size_bytes": 20609,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00068.jpg",
+      "size_bytes": 19534,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00069.jpg",
+      "size_bytes": 20699,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00070.jpg",
+      "size_bytes": 20221,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00071.jpg",
+      "size_bytes": 19764,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00072.jpg",
+      "size_bytes": 18978,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00073.jpg",
+      "size_bytes": 20109,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00074.jpg",
+      "size_bytes": 20135,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00075.jpg",
+      "size_bytes": 20161,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00076.jpg",
+      "size_bytes": 19922,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00077.jpg",
+      "size_bytes": 19331,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00078.jpg",
+      "size_bytes": 19656,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00079.jpg",
+      "size_bytes": 21698,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00081.jpg",
+      "size_bytes": 18820,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00082.jpg",
+      "size_bytes": 20506,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00083.jpg",
+      "size_bytes": 20294,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00086.jpg",
+      "size_bytes": 19168,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00087.jpg",
+      "size_bytes": 18429,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00088.jpg",
+      "size_bytes": 20299,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00089.jpg",
+      "size_bytes": 19267,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00090.jpg",
+      "size_bytes": 20391,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00091.jpg",
+      "size_bytes": 18864,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00092.jpg",
+      "size_bytes": 19341,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00093.jpg",
+      "size_bytes": 19047,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00094.jpg",
+      "size_bytes": 20712,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00095.jpg",
+      "size_bytes": 21750,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00097.jpg",
+      "size_bytes": 21560,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00098.jpg",
+      "size_bytes": 22213,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00099.jpg",
+      "size_bytes": 20332,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00100.jpg",
+      "size_bytes": 20483,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00101.jpg",
+      "size_bytes": 20453,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00103.jpg",
+      "size_bytes": 20606,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00104.jpg",
+      "size_bytes": 21704,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00106.jpg",
+      "size_bytes": 21279,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00107.jpg",
+      "size_bytes": 20597,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00108.jpg",
+      "size_bytes": 21171,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00109.jpg",
+      "size_bytes": 20775,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00110.jpg",
+      "size_bytes": 20966,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00111.jpg",
+      "size_bytes": 21849,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00112.jpg",
+      "size_bytes": 20556,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00113.jpg",
+      "size_bytes": 20783,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00114.jpg",
+      "size_bytes": 20827,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00115.jpg",
+      "size_bytes": 20041,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00117.jpg",
+      "size_bytes": 20028,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00120.jpg",
+      "size_bytes": 19687,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00123.jpg",
+      "size_bytes": 20740,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00124.jpg",
+      "size_bytes": 19959,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00125.jpg",
+      "size_bytes": 19717,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00126.jpg",
+      "size_bytes": 20187,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00127.jpg",
+      "size_bytes": 20201,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00130.jpg",
+      "size_bytes": 20829,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00132.jpg",
+      "size_bytes": 18656,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00133.jpg",
+      "size_bytes": 20520,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00134.jpg",
+      "size_bytes": 19547,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00135.jpg",
+      "size_bytes": 19567,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00136.jpg",
+      "size_bytes": 19825,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00137.jpg",
+      "size_bytes": 19704,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00139.jpg",
+      "size_bytes": 20771,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00140.jpg",
+      "size_bytes": 20391,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00141.jpg",
+      "size_bytes": 21261,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00142.jpg",
+      "size_bytes": 19701,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00143.jpg",
+      "size_bytes": 19182,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00144.jpg",
+      "size_bytes": 19010,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00145.jpg",
+      "size_bytes": 20977,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00147.jpg",
+      "size_bytes": 19312,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00148.jpg",
+      "size_bytes": 19115,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00149.jpg",
+      "size_bytes": 19976,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00150.jpg",
+      "size_bytes": 20146,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00152.jpg",
+      "size_bytes": 19741,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00154.jpg",
+      "size_bytes": 20467,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00156.jpg",
+      "size_bytes": 19966,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00157.jpg",
+      "size_bytes": 18755,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00158.jpg",
+      "size_bytes": 20379,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00159.jpg",
+      "size_bytes": 20035,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00160.jpg",
+      "size_bytes": 19617,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00161.jpg",
+      "size_bytes": 20158,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00162.jpg",
+      "size_bytes": 20894,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00163.jpg",
+      "size_bytes": 20648,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00164.jpg",
+      "size_bytes": 18219,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00165.jpg",
+      "size_bytes": 21066,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00166.jpg",
+      "size_bytes": 20883,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00167.jpg",
+      "size_bytes": 19843,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00168.jpg",
+      "size_bytes": 21402,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00169.jpg",
+      "size_bytes": 20125,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00170.jpg",
+      "size_bytes": 20938,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00171.jpg",
+      "size_bytes": 22873,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00172.jpg",
+      "size_bytes": 20556,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00174.jpg",
+      "size_bytes": 21547,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00175.jpg",
+      "size_bytes": 19916,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00176.jpg",
+      "size_bytes": 22239,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00177.jpg",
+      "size_bytes": 21067,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00178.jpg",
+      "size_bytes": 19941,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00179.jpg",
+      "size_bytes": 21792,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00180.jpg",
+      "size_bytes": 21596,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00182.jpg",
+      "size_bytes": 20311,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00183.jpg",
+      "size_bytes": 20970,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00184.jpg",
+      "size_bytes": 20782,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00187.jpg",
+      "size_bytes": 21901,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00189.jpg",
+      "size_bytes": 20763,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00190.jpg",
+      "size_bytes": 22147,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00191.jpg",
+      "size_bytes": 20098,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00192.jpg",
+      "size_bytes": 21011,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00193.jpg",
+      "size_bytes": 21517,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00195.jpg",
+      "size_bytes": 21477,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00196.jpg",
+      "size_bytes": 20223,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00197.jpg",
+      "size_bytes": 20850,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00198.jpg",
+      "size_bytes": 21617,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00199.jpg",
+      "size_bytes": 21546,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00200.jpg",
+      "size_bytes": 20382,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00201.jpg",
+      "size_bytes": 19764,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00202.jpg",
+      "size_bytes": 21153,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00203.jpg",
+      "size_bytes": 19922,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00204.jpg",
+      "size_bytes": 20584,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00205.jpg",
+      "size_bytes": 20400,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00206.jpg",
+      "size_bytes": 21431,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00207.jpg",
+      "size_bytes": 21577,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00208.jpg",
+      "size_bytes": 20521,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00209.jpg",
+      "size_bytes": 20893,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00210.jpg",
+      "size_bytes": 21856,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00211.jpg",
+      "size_bytes": 21064,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00212.jpg",
+      "size_bytes": 22029,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00214.jpg",
+      "size_bytes": 21918,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00215.jpg",
+      "size_bytes": 21413,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00216.jpg",
+      "size_bytes": 22228,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00217.jpg",
+      "size_bytes": 19870,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00218.jpg",
+      "size_bytes": 21544,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00219.jpg",
+      "size_bytes": 22131,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00220.jpg",
+      "size_bytes": 21619,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00221.jpg",
+      "size_bytes": 21980,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00222.jpg",
+      "size_bytes": 19936,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00223.jpg",
+      "size_bytes": 22354,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00224.jpg",
+      "size_bytes": 19940,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00225.jpg",
+      "size_bytes": 22242,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00226.jpg",
+      "size_bytes": 21618,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00227.jpg",
+      "size_bytes": 21336,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00228.jpg",
+      "size_bytes": 21283,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00229.jpg",
+      "size_bytes": 20935,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00230.jpg",
+      "size_bytes": 20640,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00231.jpg",
+      "size_bytes": 20622,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00232.jpg",
+      "size_bytes": 21115,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00233.jpg",
+      "size_bytes": 20156,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00234.jpg",
+      "size_bytes": 21961,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00235.jpg",
+      "size_bytes": 20614,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00236.jpg",
+      "size_bytes": 21878,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00237.jpg",
+      "size_bytes": 21260,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00239.jpg",
+      "size_bytes": 20742,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00240.jpg",
+      "size_bytes": 21865,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00241.jpg",
+      "size_bytes": 20879,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00242.jpg",
+      "size_bytes": 21622,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00243.jpg",
+      "size_bytes": 21812,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00244.jpg",
+      "size_bytes": 21669,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00245.jpg",
+      "size_bytes": 21853,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00246.jpg",
+      "size_bytes": 21600,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00247.jpg",
+      "size_bytes": 22804,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00248.jpg",
+      "size_bytes": 21753,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00249.jpg",
+      "size_bytes": 20965,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00250.jpg",
+      "size_bytes": 20970,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00251.jpg",
+      "size_bytes": 21784,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00252.jpg",
+      "size_bytes": 19918,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00253.jpg",
+      "size_bytes": 21403,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00254.jpg",
+      "size_bytes": 18819,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00255.jpg",
+      "size_bytes": 21676,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00256.jpg",
+      "size_bytes": 21365,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00257.jpg",
+      "size_bytes": 20520,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00258.jpg",
+      "size_bytes": 18972,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00259.jpg",
+      "size_bytes": 21052,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00260.jpg",
+      "size_bytes": 21476,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00261.jpg",
+      "size_bytes": 20911,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00262.jpg",
+      "size_bytes": 21003,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00263.jpg",
+      "size_bytes": 20524,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00264.jpg",
+      "size_bytes": 21309,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00265.jpg",
+      "size_bytes": 21347,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00266.jpg",
+      "size_bytes": 20834,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00267.jpg",
+      "size_bytes": 20239,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00268.jpg",
+      "size_bytes": 21024,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00269.jpg",
+      "size_bytes": 19744,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00270.jpg",
+      "size_bytes": 20881,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00271.jpg",
+      "size_bytes": 22345,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00272.jpg",
+      "size_bytes": 21089,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00273.jpg",
+      "size_bytes": 20434,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00274.jpg",
+      "size_bytes": 20746,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00275.jpg",
+      "size_bytes": 21916,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00276.jpg",
+      "size_bytes": 20978,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00277.jpg",
+      "size_bytes": 21225,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00278.jpg",
+      "size_bytes": 21129,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00279.jpg",
+      "size_bytes": 21319,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00281.jpg",
+      "size_bytes": 18808,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00282.jpg",
+      "size_bytes": 20341,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00283.jpg",
+      "size_bytes": 19581,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00284.jpg",
+      "size_bytes": 21216,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00285.jpg",
+      "size_bytes": 21100,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00287.jpg",
+      "size_bytes": 20918,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00288.jpg",
+      "size_bytes": 21050,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00289.jpg",
+      "size_bytes": 20759,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00290.jpg",
+      "size_bytes": 22673,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00291.jpg",
+      "size_bytes": 21397,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00292.jpg",
+      "size_bytes": 20932,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00293.jpg",
+      "size_bytes": 20480,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00294.jpg",
+      "size_bytes": 21439,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00295.jpg",
+      "size_bytes": 20742,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00296.jpg",
+      "size_bytes": 21371,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00297.jpg",
+      "size_bytes": 21557,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00298.jpg",
+      "size_bytes": 21222,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00299.jpg",
+      "size_bytes": 20949,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00300.jpg",
+      "size_bytes": 21370,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00301.jpg",
+      "size_bytes": 22641,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00302.jpg",
+      "size_bytes": 20500,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00303.jpg",
+      "size_bytes": 19953,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00304.jpg",
+      "size_bytes": 20597,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00305.jpg",
+      "size_bytes": 20883,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00307.jpg",
+      "size_bytes": 19048,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00308.jpg",
+      "size_bytes": 21267,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00309.jpg",
+      "size_bytes": 21501,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00310.jpg",
+      "size_bytes": 21316,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00311.jpg",
+      "size_bytes": 22006,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00312.jpg",
+      "size_bytes": 21438,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00313.jpg",
+      "size_bytes": 20596,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00314.jpg",
+      "size_bytes": 21519,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00315.jpg",
+      "size_bytes": 20009,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00317.jpg",
+      "size_bytes": 22210,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00318.jpg",
+      "size_bytes": 19767,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00319.jpg",
+      "size_bytes": 22091,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00320.jpg",
+      "size_bytes": 21926,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00322.jpg",
+      "size_bytes": 20811,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00323.jpg",
+      "size_bytes": 22298,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00324.jpg",
+      "size_bytes": 20946,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00325.jpg",
+      "size_bytes": 22220,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00326.jpg",
+      "size_bytes": 21885,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00327.jpg",
+      "size_bytes": 20833,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00330.jpg",
+      "size_bytes": 22117,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00331.jpg",
+      "size_bytes": 21751,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00332.jpg",
+      "size_bytes": 22221,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00333.jpg",
+      "size_bytes": 22213,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00334.jpg",
+      "size_bytes": 21737,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00335.jpg",
+      "size_bytes": 20935,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00336.jpg",
+      "size_bytes": 20756,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00337.jpg",
+      "size_bytes": 20278,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00338.jpg",
+      "size_bytes": 21427,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00339.jpg",
+      "size_bytes": 22481,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00340.jpg",
+      "size_bytes": 20941,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00341.jpg",
+      "size_bytes": 20395,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00342.jpg",
+      "size_bytes": 20121,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00343.jpg",
+      "size_bytes": 21094,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00344.jpg",
+      "size_bytes": 21617,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00345.jpg",
+      "size_bytes": 21542,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00346.jpg",
+      "size_bytes": 20535,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00347.jpg",
+      "size_bytes": 19726,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00348.jpg",
+      "size_bytes": 21213,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00349.jpg",
+      "size_bytes": 20509,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00350.jpg",
+      "size_bytes": 19832,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00351.jpg",
+      "size_bytes": 21646,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00352.jpg",
+      "size_bytes": 22424,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00353.jpg",
+      "size_bytes": 20680,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00354.jpg",
+      "size_bytes": 21853,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00355.jpg",
+      "size_bytes": 22252,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00356.jpg",
+      "size_bytes": 20057,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00357.jpg",
+      "size_bytes": 21507,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00359.jpg",
+      "size_bytes": 21959,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00360.jpg",
+      "size_bytes": 20149,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00361.jpg",
+      "size_bytes": 20148,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00362.jpg",
+      "size_bytes": 21107,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00364.jpg",
+      "size_bytes": 20216,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00365.jpg",
+      "size_bytes": 21086,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00366.jpg",
+      "size_bytes": 19682,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00367.jpg",
+      "size_bytes": 21813,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00368.jpg",
+      "size_bytes": 22527,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00369.jpg",
+      "size_bytes": 21783,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00370.jpg",
+      "size_bytes": 20824,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00371.jpg",
+      "size_bytes": 21028,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00372.jpg",
+      "size_bytes": 20115,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00374.jpg",
+      "size_bytes": 21261,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00375.jpg",
+      "size_bytes": 20164,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00376.jpg",
+      "size_bytes": 21926,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00377.jpg",
+      "size_bytes": 19388,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00378.jpg",
+      "size_bytes": 21996,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00379.jpg",
+      "size_bytes": 20162,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00381.jpg",
+      "size_bytes": 22540,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00382.jpg",
+      "size_bytes": 21768,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00383.jpg",
+      "size_bytes": 19872,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00384.jpg",
+      "size_bytes": 19309,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00385.jpg",
+      "size_bytes": 19974,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00386.jpg",
+      "size_bytes": 18702,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00387.jpg",
+      "size_bytes": 20146,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00388.jpg",
+      "size_bytes": 18033,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00389.jpg",
+      "size_bytes": 17276,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00390.jpg",
+      "size_bytes": 18046,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00391.jpg",
+      "size_bytes": 19729,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00392.jpg",
+      "size_bytes": 20358,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00393.jpg",
+      "size_bytes": 19905,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00395.jpg",
+      "size_bytes": 22259,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00396.jpg",
+      "size_bytes": 23029,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00397.jpg",
+      "size_bytes": 22198,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00398.jpg",
+      "size_bytes": 20054,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00400.jpg",
+      "size_bytes": 20560,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00402.jpg",
+      "size_bytes": 22273,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00403.jpg",
+      "size_bytes": 21058,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00404.jpg",
+      "size_bytes": 21179,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00405.jpg",
+      "size_bytes": 21689,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00407.jpg",
+      "size_bytes": 19853,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00408.jpg",
+      "size_bytes": 20757,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00409.jpg",
+      "size_bytes": 22036,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "BCCD/JPEGImages/BloodImage_00410.jpg",
+      "size_bytes": 19864,
+      "extension": ".jpg",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 640,
+        "height": 480,
+        "mode": "RGB",
+        "format": "JPEG"
+      }
+    },
+    {
+      "path": "dataset/mxnet/prepro.py",
+      "size_bytes": 2543,
+      "extension": ".py",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "dataset/mxnet/test.py",
+      "size_bytes": 2278,
+      "extension": ".py",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "scripts/split.py",
+      "size_bytes": 1867,
+      "extension": ".py",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "scripts/visualize.py",
+      "size_bytes": 1447,
+      "extension": ".py",
+      "is_image_by_extension": false
+    }
+  ]
+}

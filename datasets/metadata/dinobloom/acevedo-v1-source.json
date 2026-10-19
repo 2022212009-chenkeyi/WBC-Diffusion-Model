@@ -1,0 +1,23 @@
+{
+  "dataset": "Acevedo peripheral blood cell images",
+  "dataset_version": 1,
+  "dinoBloom_paper_version": "arXiv:2404.05022v1",
+  "source_page": "https://data.mendeley.com/datasets/snkd93bnjr/1",
+  "download_url": "https://data.mendeley.com/public-files/datasets/snkd93bnjr/files/2fc38728-2ae7-4a62-a857-032af82334c3/file_downloaded",
+  "source_filename": "PBC_dataset_normal_DIB.zip",
+  "license_as_shown_by_source": "CC BY 4.0",
+  "retrieved_date": "2026-10-12",
+  "study_role": "external evaluation set; not used to train DinoBloom",
+  "archive_path": "/projects/_hdd/keyi005hdd/dinobloom/archives/acevedo-v1-PBC_dataset_normal_DIB.zip",
+  "archive_size_bytes": 281366219,
+  "archive_sha256": "6c50b82d1ab499b0b5a6beda0d0f75e6013df4a7233f116da354351ac10ca4f8",
+  "archive_integrity": "passed unzip -t",
+  "extracted_path": "/projects/_hdd/keyi005hdd/dinobloom/raw/acevedo-v1/PBC_dataset_normal_DIB",
+  "inventory_path_in_repository": "datasets/metadata/dinobloom/acevedo-v1-inventory.json",
+  "analysis_path_in_repository": "datasets/metadata/dinobloom/acevedo-v1-report.md",
+  "notes": [
+    "The Mendeley description reports 17,092 images in eight groups; the downloaded archive has 17,093 JPG-suffixed files because neutrophil/.DS_169665.jpg is not a decodable image.",
+    "Folder counts are source-provided labels; no harmonization or relabeling was performed.",
+    "An earlier interrupted transfer is preserved as .incomplete and was not extracted or analyzed."
+  ]
+}

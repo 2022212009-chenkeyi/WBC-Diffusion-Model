@@ -1,0 +1,17 @@
+{
+  "status": "complete",
+  "num_samples": 50000,
+  "completed_samples": 50000,
+  "sample_batch_size": 32,
+  "seed": 2026,
+  "checkpoint": "/projects/keyi005ssd/WBCDiffusion/checkpoints/ddpm-cifar10-reference/latest.pt",
+  "checkpoint_step": 800000,
+  "shape": [
+    50000,
+    32,
+    32,
+    3
+  ],
+  "storage_format": "uint8 NHWC NumPy array; do not normalize the saved values in place",
+  "elapsed_seconds": 35826.35228531598
+}

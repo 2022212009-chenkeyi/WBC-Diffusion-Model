@@ -1,0 +1,325 @@
+{
+  "archive": "/projects/_hdd/keyi005hdd/dinobloom/archives/raabin-leukemia.rar",
+  "entry_count": 63,
+  "file_count": 50,
+  "directory_count": 13,
+  "expanded_file_bytes": 35057426302,
+  "entries": [
+    {
+      "path": "Index of Leukemia_Data/ALL/L1/all_l1_2_8,1.zip",
+      "type": "file",
+      "size_bytes": 559508028
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L1/all_ll1_8,1.zip",
+      "type": "file",
+      "size_bytes": 397320876
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all l2_13,11.zip",
+      "type": "file",
+      "size_bytes": 237081330
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all-l2-1-2,2.rar",
+      "type": "file",
+      "size_bytes": 412113316
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all-l2-16-12.zip",
+      "type": "file",
+      "size_bytes": 609151324
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all-l2-2,11.rar",
+      "type": "file",
+      "size_bytes": 1190431502
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all-l2-2-3,2.rar",
+      "type": "file",
+      "size_bytes": 503774394
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all-l2-25-10.zip",
+      "type": "file",
+      "size_bytes": 1723681140
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all-l2-4,2.rar",
+      "type": "file",
+      "size_bytes": 629590575
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all-l2.15-12.zip",
+      "type": "file",
+      "size_bytes": 443212830
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all_l2-tll_15,11.zip",
+      "type": "file",
+      "size_bytes": 807512063
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all_l2_10,11.zip",
+      "type": "file",
+      "size_bytes": 732276687
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/all_l2_25,10(1).zip",
+      "type": "file",
+      "size_bytes": 2621045018
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2/tll_all_l2_12,11.zip",
+      "type": "file",
+      "size_bytes": 542071822
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M0/aml-m0-2,11.zip",
+      "type": "file",
+      "size_bytes": 1082495293
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M0/aml-m0-3,2.rar",
+      "type": "file",
+      "size_bytes": 549060439
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M1/aml-m1-10,3.rar",
+      "type": "file",
+      "size_bytes": 311558220
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M1/aml-m1-15,2.rar",
+      "type": "file",
+      "size_bytes": 436952909
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M1/aml-m1-16,2.rar",
+      "type": "file",
+      "size_bytes": 349573793
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M1/aml-m1-16,3.rar",
+      "type": "file",
+      "size_bytes": 369612876
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M1/aml-m1.15-12.zip",
+      "type": "file",
+      "size_bytes": 569811226
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M1/aml_m1_12,11.zip",
+      "type": "file",
+      "size_bytes": 779762954
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M3/aml m3_13,11.zip",
+      "type": "file",
+      "size_bytes": 573426135
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M3/m3-15-12.zip",
+      "type": "file",
+      "size_bytes": 416679346
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M3/m3_20,12.zip",
+      "type": "file",
+      "size_bytes": 548559394
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M3/m3_7 ,1.zip",
+      "type": "file",
+      "size_bytes": 382216342
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M4/aml-m4,5-5,2.rar",
+      "type": "file",
+      "size_bytes": 371586362
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M4/aml-m4,5.16-12.zip",
+      "type": "file",
+      "size_bytes": 621754225
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M4/aml_m4,5-2,2.rar",
+      "type": "file",
+      "size_bytes": 427494371
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M4/aml_m4,5_7,1.zip",
+      "type": "file",
+      "size_bytes": 815270857
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M5/aml-m5-14,3.rar",
+      "type": "file",
+      "size_bytes": 403289388
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M5/aml-m5-23,2.rar",
+      "type": "file",
+      "size_bytes": 448244672
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll-14,3.rar",
+      "type": "file",
+      "size_bytes": 296649367
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll-15,2.rar",
+      "type": "file",
+      "size_bytes": 481786871
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll-16,2.rar",
+      "type": "file",
+      "size_bytes": 446937246
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll-16-12.zip",
+      "type": "file",
+      "size_bytes": 615233436
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll-17-12.zip",
+      "type": "file",
+      "size_bytes": 674594169
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll-22,2.rar",
+      "type": "file",
+      "size_bytes": 484517889
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll-23,2.rar",
+      "type": "file",
+      "size_bytes": 427624526
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll-3,2.rar",
+      "type": "file",
+      "size_bytes": 552019440
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll_10,11.zip",
+      "type": "file",
+      "size_bytes": 958071244
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll_14,11.zip",
+      "type": "file",
+      "size_bytes": 360852598
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll_16,11.zip",
+      "type": "file",
+      "size_bytes": 591726282
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll_2_14,11.zip",
+      "type": "file",
+      "size_bytes": 457237886
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll_3_14,11.zip",
+      "type": "file",
+      "size_bytes": 902517281
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll_8,1.zip",
+      "type": "file",
+      "size_bytes": 404864380
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL/cll_9,1.zip",
+      "type": "file",
+      "size_bytes": 898207332
+    },
+    {
+      "path": "Index of Leukemia_Data/CML/cml-29-10.rar",
+      "type": "file",
+      "size_bytes": 2789782633
+    },
+    {
+      "path": "Index of Leukemia_Data/CML/cml-5,11.rar",
+      "type": "file",
+      "size_bytes": 2235181050
+    },
+    {
+      "path": "Index of Leukemia_Data/CML/cml_baso_20,12.rar",
+      "type": "file",
+      "size_bytes": 613502965
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L1",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL/L2",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M0",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M1",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M2",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M3",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M4",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/AML/M5",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/ALL",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/AML",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/CLL",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data/CML",
+      "type": "directory",
+      "size_bytes": 0
+    },
+    {
+      "path": "Index of Leukemia_Data",
+      "type": "directory",
+      "size_bytes": 0
+    }
+  ],
+  "extracted_to": null
+}

@@ -1,0 +1,10 @@
+source_id,release,split,task,label_schema,native_label,count,count_basis,data_role,analysis_class,harmonization_id
+warty-pig,public-drive-snapshot-2026-10-15,augmented,cell-type-classification,Google Drive class-folder names,Basophil,447,directory-labelled-image-files,cohort-source,,
+warty-pig,public-drive-snapshot-2026-10-15,augmented,cell-type-classification,Google Drive class-folder names,Eosinophil,405,directory-labelled-image-files,cohort-source,,
+warty-pig,public-drive-snapshot-2026-10-15,augmented,cell-type-classification,Google Drive class-folder names,Monocyte,418,directory-labelled-image-files,cohort-source,,
+warty-pig,public-drive-snapshot-2026-10-15,augmented,cell-type-classification,Google Drive class-folder names,Neutrophil,194,directory-labelled-image-files,cohort-source,,
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Basophil,20,directory-labelled-image-files,cohort-source,,
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Eosinophil,82,directory-labelled-image-files,cohort-source,,
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Lymphocyte,905,directory-labelled-image-files,cohort-source,,
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Monocyte,82,directory-labelled-image-files,cohort-source,,
+warty-pig,public-drive-snapshot-2026-10-15,cropped-classified,cell-type-classification,Google Drive class-folder names,Neutrophil,319,directory-labelled-image-files,cohort-source,,

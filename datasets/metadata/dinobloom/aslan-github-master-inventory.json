@@ -1,0 +1,2005 @@
+{
+  "root": "/projects/_hdd/keyi005hdd/dinobloom/raw/aslan-detection-github-master",
+  "note": "Immediate-parent counts describe directory structure only; they are not asserted to be semantic class counts.",
+  "summary": {
+    "file_count": 230,
+    "image_count_by_extension": 100,
+    "image_decode_errors": 0,
+    "extensions": {
+      ".cff": 1,
+      ".csv": 1,
+      ".md": 1,
+      ".png": 100,
+      ".txt": 115,
+      "[none]": 12
+    },
+    "files_by_top_level_directory": {
+      "blood-cell-detection-dataset-master": 230
+    },
+    "exact_duplicate_groups": 0,
+    "hashing_enabled": false
+  },
+  "exact_duplicate_groups": [],
+  "files": [
+    {
+      "path": "blood-cell-detection-dataset-master/.gitignore",
+      "size_bytes": 9,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/CITATION.cff",
+      "size_bytes": 497,
+      "extension": ".cff",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/LICENSE",
+      "size_bytes": 1074,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/README.md",
+      "size_bytes": 3417,
+      "extension": ".md",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/annotations.csv",
+      "size_bytes": 211023,
+      "extension": ".csv",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-1.png",
+      "size_bytes": 133675,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-10.png",
+      "size_bytes": 124440,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-100.png",
+      "size_bytes": 124833,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-101.png",
+      "size_bytes": 128497,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-102.png",
+      "size_bytes": 127343,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-103.png",
+      "size_bytes": 125886,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-104.png",
+      "size_bytes": 125186,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-105.png",
+      "size_bytes": 128706,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-106.png",
+      "size_bytes": 129884,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-107.png",
+      "size_bytes": 127513,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-108.png",
+      "size_bytes": 120047,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-109.png",
+      "size_bytes": 128647,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-11.png",
+      "size_bytes": 126244,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-110.png",
+      "size_bytes": 129874,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-111.png",
+      "size_bytes": 129046,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-112.png",
+      "size_bytes": 126899,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-113.png",
+      "size_bytes": 124573,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-114.png",
+      "size_bytes": 126914,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-115.png",
+      "size_bytes": 128516,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-116.png",
+      "size_bytes": 128578,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-117.png",
+      "size_bytes": 129697,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-118.png",
+      "size_bytes": 127467,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-119.png",
+      "size_bytes": 125686,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-12.png",
+      "size_bytes": 126892,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-120.png",
+      "size_bytes": 127721,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-14.png",
+      "size_bytes": 126418,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-17.png",
+      "size_bytes": 127869,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-18.png",
+      "size_bytes": 124030,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-19.png",
+      "size_bytes": 127879,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-2.png",
+      "size_bytes": 127968,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-20.png",
+      "size_bytes": 125583,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-21.png",
+      "size_bytes": 129416,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-22.png",
+      "size_bytes": 122841,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-23.png",
+      "size_bytes": 127844,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-24.png",
+      "size_bytes": 127884,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-25.png",
+      "size_bytes": 125350,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-28.png",
+      "size_bytes": 126645,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-30.png",
+      "size_bytes": 120590,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-31.png",
+      "size_bytes": 123969,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-32.png",
+      "size_bytes": 121518,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-33.png",
+      "size_bytes": 123791,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-34.png",
+      "size_bytes": 124269,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-35.png",
+      "size_bytes": 128830,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-36.png",
+      "size_bytes": 125455,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-37.png",
+      "size_bytes": 125536,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-38.png",
+      "size_bytes": 124505,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-39.png",
+      "size_bytes": 129127,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-4.png",
+      "size_bytes": 126862,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-43.png",
+      "size_bytes": 129121,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-44.png",
+      "size_bytes": 124263,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-45.png",
+      "size_bytes": 125285,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-46.png",
+      "size_bytes": 130690,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-48.png",
+      "size_bytes": 127262,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-49.png",
+      "size_bytes": 125907,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-50.png",
+      "size_bytes": 128665,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-51.png",
+      "size_bytes": 127882,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-52.png",
+      "size_bytes": 128718,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-53.png",
+      "size_bytes": 129460,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-54.png",
+      "size_bytes": 129956,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-55.png",
+      "size_bytes": 123208,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-59.png",
+      "size_bytes": 128356,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-60.png",
+      "size_bytes": 128258,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-61.png",
+      "size_bytes": 126460,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-62.png",
+      "size_bytes": 129666,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-64.png",
+      "size_bytes": 125563,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-65.png",
+      "size_bytes": 127231,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-66.png",
+      "size_bytes": 125254,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-68.png",
+      "size_bytes": 127534,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-69.png",
+      "size_bytes": 125051,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-7.png",
+      "size_bytes": 132020,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-70.png",
+      "size_bytes": 128965,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-71.png",
+      "size_bytes": 127643,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-72.png",
+      "size_bytes": 126583,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-73.png",
+      "size_bytes": 126099,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-74.png",
+      "size_bytes": 127595,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-75.png",
+      "size_bytes": 123884,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-76.png",
+      "size_bytes": 126486,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-77.png",
+      "size_bytes": 125846,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-78.png",
+      "size_bytes": 121768,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-79.png",
+      "size_bytes": 124288,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-8.png",
+      "size_bytes": 127001,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-80.png",
+      "size_bytes": 123693,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-81.png",
+      "size_bytes": 121483,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-82.png",
+      "size_bytes": 118568,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-83.png",
+      "size_bytes": 119302,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-84.png",
+      "size_bytes": 119830,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-85.png",
+      "size_bytes": 120745,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-86.png",
+      "size_bytes": 124124,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-87.png",
+      "size_bytes": 122694,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-88.png",
+      "size_bytes": 125528,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-89.png",
+      "size_bytes": 126629,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-90.png",
+      "size_bytes": 125985,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-91.png",
+      "size_bytes": 125028,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-92.png",
+      "size_bytes": 126743,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-93.png",
+      "size_bytes": 124568,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-94.png",
+      "size_bytes": 126338,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-95.png",
+      "size_bytes": 128337,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-96.png",
+      "size_bytes": 126460,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-97.png",
+      "size_bytes": 124960,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/images/image-99.png",
+      "size_bytes": 129488,
+      "extension": ".png",
+      "is_image_by_extension": true,
+      "image_inspection": {
+        "width": 256,
+        "height": 256,
+        "mode": "RGBA",
+        "format": "PNG"
+      }
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-1.txt",
+      "size_bytes": 1813,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-10.txt",
+      "size_bytes": 1863,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-100.txt",
+      "size_bytes": 2224,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-101.txt",
+      "size_bytes": 2160,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-102.txt",
+      "size_bytes": 2204,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-103.txt",
+      "size_bytes": 2267,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-104.txt",
+      "size_bytes": 1786,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-105.txt",
+      "size_bytes": 1707,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-106.txt",
+      "size_bytes": 2027,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-107.txt",
+      "size_bytes": 1773,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-108.txt",
+      "size_bytes": 1245,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-109.txt",
+      "size_bytes": 2021,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-11.txt",
+      "size_bytes": 2564,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-110.txt",
+      "size_bytes": 2446,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-111.txt",
+      "size_bytes": 2113,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-112.txt",
+      "size_bytes": 2034,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-113.txt",
+      "size_bytes": 2385,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-114.txt",
+      "size_bytes": 2290,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-115.txt",
+      "size_bytes": 2985,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-116.txt",
+      "size_bytes": 2997,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-117.txt",
+      "size_bytes": 2410,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-118.txt",
+      "size_bytes": 3106,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-119.txt",
+      "size_bytes": 2571,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-12.txt",
+      "size_bytes": 2073,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-120.txt",
+      "size_bytes": 2955,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-14.txt",
+      "size_bytes": 2716,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-17.txt",
+      "size_bytes": 2311,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-18.txt",
+      "size_bytes": 2377,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-19.txt",
+      "size_bytes": 2627,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-2.txt",
+      "size_bytes": 1828,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-20.txt",
+      "size_bytes": 2882,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-21.txt",
+      "size_bytes": 2100,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-22.txt",
+      "size_bytes": 2041,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-23.txt",
+      "size_bytes": 2217,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-24.txt",
+      "size_bytes": 2153,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-25.txt",
+      "size_bytes": 2299,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-28.txt",
+      "size_bytes": 2085,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-30.txt",
+      "size_bytes": 1699,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-31.txt",
+      "size_bytes": 1692,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-32.txt",
+      "size_bytes": 2182,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-33.txt",
+      "size_bytes": 2063,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-34.txt",
+      "size_bytes": 2542,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-35.txt",
+      "size_bytes": 2345,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-36.txt",
+      "size_bytes": 2516,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-37.txt",
+      "size_bytes": 2798,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-38.txt",
+      "size_bytes": 2191,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-39.txt",
+      "size_bytes": 2325,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-4.txt",
+      "size_bytes": 1725,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-43.txt",
+      "size_bytes": 2259,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-44.txt",
+      "size_bytes": 2292,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-45.txt",
+      "size_bytes": 2438,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-46.txt",
+      "size_bytes": 2375,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-48.txt",
+      "size_bytes": 1503,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-49.txt",
+      "size_bytes": 2409,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-50.txt",
+      "size_bytes": 1832,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-51.txt",
+      "size_bytes": 2451,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-52.txt",
+      "size_bytes": 2056,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-53.txt",
+      "size_bytes": 1857,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-54.txt",
+      "size_bytes": 1739,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-55.txt",
+      "size_bytes": 1875,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-59.txt",
+      "size_bytes": 2074,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-60.txt",
+      "size_bytes": 1810,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-61.txt",
+      "size_bytes": 1915,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-62.txt",
+      "size_bytes": 1875,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-64.txt",
+      "size_bytes": 2431,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-65.txt",
+      "size_bytes": 1718,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-66.txt",
+      "size_bytes": 2017,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-68.txt",
+      "size_bytes": 2278,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-69.txt",
+      "size_bytes": 3164,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-7.txt",
+      "size_bytes": 2429,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-70.txt",
+      "size_bytes": 2457,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-71.txt",
+      "size_bytes": 2297,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-72.txt",
+      "size_bytes": 2606,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-73.txt",
+      "size_bytes": 2137,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-74.txt",
+      "size_bytes": 2708,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-75.txt",
+      "size_bytes": 2080,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-76.txt",
+      "size_bytes": 2401,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-77.txt",
+      "size_bytes": 2387,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-78.txt",
+      "size_bytes": 2500,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-79.txt",
+      "size_bytes": 1975,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-8.txt",
+      "size_bytes": 2475,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-80.txt",
+      "size_bytes": 2131,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-81.txt",
+      "size_bytes": 1389,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-82.txt",
+      "size_bytes": 1497,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-83.txt",
+      "size_bytes": 1060,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-84.txt",
+      "size_bytes": 1068,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-85.txt",
+      "size_bytes": 1094,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-86.txt",
+      "size_bytes": 1957,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-87.txt",
+      "size_bytes": 2460,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-88.txt",
+      "size_bytes": 2463,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-89.txt",
+      "size_bytes": 2273,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-90.txt",
+      "size_bytes": 2133,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-91.txt",
+      "size_bytes": 2327,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-92.txt",
+      "size_bytes": 2433,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-93.txt",
+      "size_bytes": 2070,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-94.txt",
+      "size_bytes": 2841,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-95.txt",
+      "size_bytes": 2451,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-96.txt",
+      "size_bytes": 2488,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-97.txt",
+      "size_bytes": 3028,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/image-99.txt",
+      "size_bytes": 2617,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-1-checkpoint.txt",
+      "size_bytes": 92,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-102-checkpoint.txt",
+      "size_bytes": 2250,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-103-checkpoint.txt",
+      "size_bytes": 89,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-107-checkpoint.txt",
+      "size_bytes": 1811,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-109-checkpoint.txt",
+      "size_bytes": 102,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-114-checkpoint.txt",
+      "size_bytes": 2340,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-21-checkpoint.txt",
+      "size_bytes": 2146,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-24-checkpoint.txt",
+      "size_bytes": 2199,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-32-checkpoint.txt",
+      "size_bytes": 2228,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-39-checkpoint.txt",
+      "size_bytes": 2375,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-4-checkpoint.txt",
+      "size_bytes": 1761,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-75-checkpoint.txt",
+      "size_bytes": 103,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-82-checkpoint.txt",
+      "size_bytes": 1529,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-88-checkpoint.txt",
+      "size_bytes": 2515,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/labels/.ipynb_checkpoints/image-95-checkpoint.txt",
+      "size_bytes": 2503,
+      "extension": ".txt",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00000-of-00010",
+      "size_bytes": 18984,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00001-of-00010",
+      "size_bytes": 20265,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00002-of-00010",
+      "size_bytes": 18729,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00003-of-00010",
+      "size_bytes": 19851,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00004-of-00010",
+      "size_bytes": 19023,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00005-of-00010",
+      "size_bytes": 19520,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00006-of-00010",
+      "size_bytes": 17296,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00007-of-00010",
+      "size_bytes": 17640,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00008-of-00010",
+      "size_bytes": 20352,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    },
+    {
+      "path": "blood-cell-detection-dataset-master/tfrecords/data-fold-000-of-002-shard-00009-of-00010",
+      "size_bytes": 19335,
+      "extension": "[none]",
+      "is_image_by_extension": false
+    }
+  ]
+}

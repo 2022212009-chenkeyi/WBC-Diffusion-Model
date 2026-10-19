@@ -1,0 +1,16 @@
+source_id,release,split,task,label_schema,native_label,count,count_basis,data_role,analysis_class,harmonization_id,group_total,share_pct
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,BAS,79,annotation-records,cohort-source,,,18365,0.4302
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,EBO,78,annotation-records,cohort-source,,,18365,0.4247
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,EOS,424,annotation-records,cohort-source,,,18365,2.3087
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,KSC,15,annotation-records,cohort-source,,,18365,0.0817
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,LYA,11,annotation-records,cohort-source,,,18365,0.0599
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,LYT,3937,annotation-records,cohort-source,,,18365,21.4375
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MMZ,15,annotation-records,cohort-source,,,18365,0.0817
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MOB,26,annotation-records,cohort-source,,,18365,0.1416
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MON,1789,annotation-records,cohort-source,,,18365,9.7414
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MYB,42,annotation-records,cohort-source,,,18365,0.2287
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,MYO,3268,annotation-records,cohort-source,,,18365,17.7947
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,NGB,109,annotation-records,cohort-source,,,18365,0.5935
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,NGS,8484,annotation-records,cohort-source,,,18365,46.1966
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,PMB,18,annotation-records,cohort-source,,,18365,0.098
+aml-matek,v1,not-reported,cell-morphology,TCIA annotations.dat primary gold class,PMO,70,annotation-records,cohort-source,,,18365,0.3812

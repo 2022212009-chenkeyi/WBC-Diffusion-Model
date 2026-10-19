@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="406" viewBox="0 0 940 406">
+<style>text{font-family:Arial,sans-serif;fill:#20242b}.title{font-size:20px;font-weight:700}.meta{font-size:13px;fill:#565e6b}.label{font-size:14px}.value{font-size:13px}.axis{stroke:#c8cdd5;stroke-width:1}</style>
+<text class="title" x="235" y="32">acevedo · v1 · not-reported · cell-category</text>
+<text class="meta" x="235" y="56">N = 17,092 · count basis: decodable-images</text>
+<line class="axis" x1="235" y1="77" x2="235" y2="377"/>
+<text class="label" x="223" y="104" text-anchor="end">neutrophil</text>
+<rect x="235" y="86" width="610" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="854" y="103">3,329 (19.48%)</text>
+<text class="label" x="223" y="140" text-anchor="end">eosinophil</text>
+<rect x="235" y="122" width="571" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="815" y="139">3,117 (18.24%)</text>
+<text class="label" x="223" y="176" text-anchor="end">ig</text>
+<rect x="235" y="158" width="530" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="774" y="175">2,895 (16.94%)</text>
+<text class="label" x="223" y="212" text-anchor="end">platelet</text>
+<rect x="235" y="194" width="430" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="674" y="211">2,348 (13.74%)</text>
+<text class="label" x="223" y="248" text-anchor="end">erythroblast</text>
+<rect x="235" y="230" width="284" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="528" y="247">1,551 (9.07%)</text>
+<text class="label" x="223" y="284" text-anchor="end">monocyte</text>
+<rect x="235" y="266" width="260" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="504" y="283">1,420 (8.31%)</text>
+<text class="label" x="223" y="320" text-anchor="end">basophil</text>
+<rect x="235" y="302" width="223" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="467" y="319">1,218 (7.13%)</text>
+<text class="label" x="223" y="356" text-anchor="end">lymphocyte</text>
+<rect x="235" y="338" width="222" height="23" rx="3" fill="#2673b8"/>
+<text class="value" x="466" y="355">1,214 (7.10%)</text>
+</svg>
