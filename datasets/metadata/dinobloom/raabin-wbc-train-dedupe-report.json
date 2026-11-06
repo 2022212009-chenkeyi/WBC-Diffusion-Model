@@ -1,0 +1,24 @@
+{
+  "dataset": "Raabin-WBC cropped double-labeled Train",
+  "root": "/projects/_hdd/keyi005hdd/dinobloom/raw/raabin-wbc-train/Train",
+  "files_hashed": 10175,
+  "total_image_bytes": 329409713,
+  "unique_sha256": 10175,
+  "exact_duplicate_group_count": 0,
+  "files_in_exact_duplicate_groups": 0,
+  "exact_duplicate_groups": [],
+  "class_counts_by_directory": {
+    "Basophil": 212,
+    "Eosinophil": 744,
+    "Lymphocyte": 2427,
+    "Monocyte": 561,
+    "Neutrophil": 6231
+  },
+  "filename_pattern_counts_not_semantically_interpreted": {
+    "date_time_sequence": 212,
+    "numeric_hyphen_sequence": 9963
+  },
+  "patient_or_smear_grouping": "not established by filename pattern; no patient/smear identifiers are present in the existing repository manifest",
+  "manifest": "datasets/metadata/dinobloom/raabin-wbc-train-sha256-manifest.csv",
+  "elapsed_seconds": 249.46
+}

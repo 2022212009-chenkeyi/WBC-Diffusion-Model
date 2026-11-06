@@ -1,0 +1,10 @@
+{
+  "source_samples": "/projects/keyi005ssd/WBCDiffusion/generated_samples/wbc-raabin-256-baseline-v1/samples_ema_step0200000_n2000_seed2026.npy",
+  "checkpoint_step": 200000,
+  "sample_seed": 2026,
+  "preview_count": 100,
+  "selection_seed": 20261106,
+  "selection_without_replacement": true,
+  "image_size": "256x256 RGB",
+  "note": "Generated-only preview, separate from blinded test review. Viewing this does not constitute reviewer scoring."
+}

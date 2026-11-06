@@ -1,0 +1,56 @@
+# WBC-DDPM-RAABIN-BASELINE-001
+
+## Objective
+
+Train the first unconditional pixel-space DDPM baseline on QC-kept Raabin-WBC cropped Train images. Labels are not model inputs. The initial formal candidate uses 256×256 RGB images; the run is an image-distribution baseline and does not support clinical or pathology-mechanism claims.
+
+## Frozen inputs
+
+- Split manifest: `datasets/metadata/dinobloom/raabin-wbc-train-split-manifest.csv`
+- Split counts: 8,139 train / 1,017 validation / 1,017 test.
+- Manifest SHA-256: `d4d9d318967ca53a08d3dbc68175606c6b409dfaa1c9866a6444d2e9e0edff9b`
+- Preprocessing: RGB, full-frame square LANCZOS resize to 256×256, float32 normalized to [-1,1], no augmentation.
+- Source images remain read-only on HDD. Results/checkpoints are written to SSD.
+- Access terms were rechecked in `datasets/metadata/dinobloom/raabin-wbc-terms-review-2026-11-04.md`: official sources support free public research/model-development use and request citation, but do not identify a separate image-dataset license or redistribution terms. This baseline proceeds as academic research; do not redistribute raw images or potentially memorized outputs without further clarification.
+
+## Configuration
+
+See `01_ddpm_reproduction/configs/wbc_raabin_256_baseline_v1.toml`. Train for 200,000 optimizer updates, batch size 2, Adam at 2e-4 with 5,000-step warmup, gradient clip 1.0, 1,000 diffusion timesteps, fixed-large variance, epsilon prediction, and EMA decay 0.9999. Save checkpoints every 10,000 updates, retain the latest three, and generate a 16-image EMA grid every 10,000 updates using the same fixed sampling seed. At the same checkpoints, log fixed-randomness epsilon MSE on all 1,017 validation images; validation uses EMA weights and does not access test images.
+
+The 200,000-update budget is an initial formal run, not a convergence claim. The 256 pilot took 16.69 seconds for 200 updates (training-loop timer) with 2.7 GiB peak allocated VRAM on A6000; this estimates roughly 4.6 hours of update time before periodic validation, sampling and I/O. The formal run requests RTX Pro 6000, so its actual speed and memory use will be measured rather than inferred from the A6000 estimate. The Slurm limit is 12 hours. If the job approaches the limit, use the saved checkpoint and `--resume`; do not change the frozen split or config mid-run.
+
+## Pre-run gate
+
+- Smoke 245357: completed 2 updates with finite losses; checkpoint and sample grid saved.
+- Checkpoint restore 245400: completed successfully and reported restored step 2.
+- 128 pilot 245361: completed 200 updates; finite loss and sample grid saved.
+- 256 pilot 245363: completed 200 updates; finite loss, sample grid saved, and peak allocated VRAM 2.7 GiB.
+- Pilot grids remain noise-like after only 200 updates and are not quality evidence.
+
+## Results and decision record
+
+Formal A6000 jobs 245419 and 245425 failed before the first update because the allocated device at PCI `00:1C.0` did not initialize CUDA; neither produced a checkpoint or training row. These are infrastructure launch failures, not model failures. The current formal job is 245428 on RTX Pro 6000. A fresh queue check at 2026-11-04 06:12 UTC confirms it is still `PENDING (Priority)` with a Slurm-estimated start of 15:31 UTC; the estimate may change. The queued job's saved submission script predates the latest edits that add an automatic `--resume` check. The training code itself catches `SIGTERM` and saves a checkpoint after the current optimizer step, so if the 12-hour allocation ends before 200,000 updates, resubmit the current script to continue from `latest.pt`. A two-minute preflight job 245480 successfully initialized CUDA and ran a matrix operation on RTX PRO 6000 Blackwell Max-Q Workstation Edition (node `gpu-pro6000-14`, PCI `00:11.0`) using PyTorch 2.8.0+cu128. `sprio` reports priority 1; the user's association allows QOS `msc` and `override-limits-but-killable`, and no higher-priority QOS is available to this account. A direct priority update was rejected by Slurm/QOS policy. A separate 8-hour backfill candidate was forecast later (22:07 UTC) and canceled to avoid two jobs writing to the same run directory. The current code/config logs fixed-randomness EMA validation loss on all 1,017 validation images at each checkpoint. Fill in after a run finishes: final state, hardware/software, actual runtime, loss curve, checkpoint list, fixed-seed sample grids, validation behavior, resource usage, and restart history. Use `docs/wbc_unconditional_evaluation_protocol_v1.md` for held-out quality, diversity, coverage, and memorization assessment. Do not begin conditional training until its go/no-go criteria are evaluated.
+
+Post-training jobs are prepared: generate 2,000 EMA samples from the final checkpoint; compute 768-dimensional TorchMetrics/torch-fidelity Inception FID/KID and PRDC precision/recall/density/coverage against held-out test, plus train/test references; screen all generated samples against the frozen training split using exact resized-pixel hashes and 64-bit dHash; and create blinded packets for 3 reviewers (200 generated + 200 real test images each). These are queued as dependencies after job 245428 and are not results until they complete.
+
+The first Pro 6000 preflight attempt was rejected with `QOSMaxSubmitJobPerUserLimit` while the baseline and three dependent jobs were queued. After temporarily freeing one pending slot, preflight job 245480 verified the Pro 6000 and CUDA path; the blind-review preparation job was then requeued as 245482.
+
+Blind-review protocol audit on 2026-11-04 found that the packet form had a yes/no artifact flag while the preregistered gate required a 1–5 artifact severity score. The form now uses reverse-coded `artifact_severity_1to5` (1=severe, 5=no obvious artifact), matching the ≤2 severe-artifact threshold. Added `ddpm.summarize_wbc_blind_review` to validate answer-key/scoring-sheet alignment and compute the image-level two-thirds vote gates, per-reviewer generated-image rates, and JSON/Markdown summary after scoring is complete. No evaluation results exist yet; these edits affect the future review packet only.
+
+Evaluation audit follow-up at 2026-11-04 06:17 UTC: added top-5 nearest training-image retrieval in the same generic Inception feature space to the queued GPU evaluator, supplementing exact-pixel/dHash checks; the output is explicitly a candidate list for visual review, not a copying verdict. The baseline remains `PENDING (Priority)`; current estimated start is 16:18 UTC and may change.
+
+At 2026-11-04 06:22 UTC, verified job 245467's submitted batch command runs `python -m ddpm.evaluate_wbc` from the shared project checkout, so it will load the updated evaluator source when the dependency clears. Current queue check still shows baseline `PENDING (Priority)` and downstream jobs waiting on dependencies.
+
+Scheduler capacity check at 2026-11-04 06:26 UTC: job 245428 remains priority-pending, with `squeue --start` assigning `gpu-pro6000-11` and estimating 16:18:36 UTC. `sinfo` shows all Pro 6000 nodes allocated; the only `MIXED` L40 node has all 4/4 L40 GPUs allocated (`AllocTRES=gres/gpu:l40=4`), so no idle GPU alternative was available at this check. Keep the validated Pro 6000 request rather than discard its queue position for an unverified hardware switch.
+
+Reviewer calibration preparation on 2026-11-04: generated and visually inspected a reproducible 20-image calibration packet from QC-kept real train images, using the frozen split and baseline resize. Files are in `results/phase2_dataset/wbc_review_calibration_v1/`; the manifest stores source and resized-image hashes, and the instructions explicitly prohibit changing thresholds based on calibration. This packet is separate from the later blind test review.
+
+Split integrity audit at 2026-11-04 06:30 UTC: re-read all 10,173 manifest rows; train/validation/test counts are 8,139/1,017/1,017, and none of 10,013 split groups crosses a split boundary. The 320 rows assigned `dHash_candidate_pair` correspond to 160 two-image groups; all other rows use unique-SHA singleton groups. All manifest rows are QC `keep`; exclusions/review items are absent from training. Class proportions match exactly between validation and test (21/74/243/56/623 for Basophil/Eosinophil/Lymphocyte/Monocyte/Neutrophil). Manifest SHA-256 remains `d4d9d318967ca53a08d3dbc68175606c6b409dfaa1c9866a6444d2e9e0edff9b`.
+
+Formal baseline started at 2026-11-04 07:31:42 UTC on `gpu-pro6000-5` (Slurm job 245428; PyTorch 2.8.0+cu128, CUDA 12.8, NVIDIA RTX PRO 6000 Blackwell Max-Q). At 08:17 UTC, it was still `RUNNING` at 58,100/200,000 updates, with 3.58 GiB peak allocated VRAM. `latest.pt` and retained checkpoints for steps 30,000, 40,000, and 50,000 were present. Fixed-seed EMA validation epsilon MSE on all 1,017 validation images was 0.1650533, 0.0282380, 0.0086513, 0.0055543, and 0.0050654 at steps 10k–50k. These decreasing losses confirm optimization progress, not sample quality or convergence. Sampling and evaluation jobs 245465/245467/245482 remain dependent on baseline completion.
+
+At 2026-11-04 08:20 UTC (16:20 Singapore time), the baseline reached 60,000/200,000 updates and wrote `step_0060000.pt` plus `latest.pt`; validation epsilon MSE was 0.0048617. The observed average throughput through 60k implies roughly 114 more minutes of optimizer time to 200k (around 18:14 Singapore time), excluding variation and any later overhead; this is an estimate, not a scheduler completion promise. Sampling (2,000 images) and subsequent metrics/visual review preparation run afterward and may take several additional hours. No sample-quality conclusion can be drawn yet.
+
+At 2026-11-04 10:12:41 UTC (18:12 Singapore time), Slurm job 245428 completed successfully after 2:40:59, and `train.csv` contains the terminal 200,000-step row. Final fixed-seed EMA validation epsilon MSE is 0.0041909. Final sampling job 245465 started at 10:13 UTC and remains active; at 12:01 UTC its log showed 960/2,000 images generated, with the preallocated partial NPY and JSON metadata present. Recent sampling rate suggests about 101 minutes remain, but this estimate can vary. A visual check of the 16-image step-200k preview showed a mix of WBC-like structures and conspicuous blur/color/multi-cell artifacts; this small preview is only an early warning for the full blind review, not a quantitative quality verdict. Jobs 245467 and 245482 are still waiting on 245465.
+
+Final result audit on 2026-11-06: baseline 245428, final-sample job 245465, metric job 245467, and review/memorization-prep job 245482 all completed successfully. All 2,000 final EMA samples exist; FID/KID/PRDC and the exact/dHash plus feature-neighbor files were produced. Generated-vs-test FID is 0.7547 versus 0.0180 train-vs-test; PRDC precision/recall/density/coverage is 0.0865/0.5290/0.0447/0.2380 versus 0.8900/0.9114/0.9654/0.9626 for the real-test-half reference. Exact-pixel and dHash≤4 hits are both zero. The three blind-review sheets are still blank; manual quality thresholds and the final conditional-generation gate are therefore pending. See `results/wbc_unconditional_baseline_001/analysis.md` for interpretation and limitations.

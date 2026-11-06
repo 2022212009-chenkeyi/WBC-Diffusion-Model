@@ -18,8 +18,10 @@ import tomllib
 
 import numpy as np
 import torch
-from torch.utils.data import DataLoader
+from PIL import Image
+from torch.utils.data import DataLoader, Dataset
 from torchvision import datasets, transforms, utils
+from torchvision.transforms import InterpolationMode
 
 from .diffusion import GaussianDiffusion
 from .model import UNet
@@ -81,8 +83,8 @@ def capture_rng_state() -> dict:
 def restore_rng_state(state: dict) -> None:
     random.setstate(state["python"])
     np.random.set_state(state["numpy"])
-    torch.set_rng_state(state["torch"])
-    torch.cuda.set_rng_state_all(state["cuda"])
+    torch.set_rng_state(state["torch"].cpu())
+    torch.cuda.set_rng_state_all([gpu_state.cpu() for gpu_state in state["cuda"]])
 
 
 def update_ema(ema: torch.nn.Module, model: torch.nn.Module, decay: float) -> None:
@@ -95,10 +97,98 @@ def update_ema(ema: torch.nn.Module, model: torch.nn.Module, decay: float) -> No
             ema_buffer.copy_(model_buffers[name])
 
 
+@torch.no_grad()
+def evaluate_noise_loss(
+    model: torch.nn.Module,
+    diffusion: GaussianDiffusion,
+    loader: DataLoader,
+    device: torch.device,
+    seed: int,
+) -> float:
+    """Measure validation epsilon loss with fixed randomness without advancing train RNG."""
+    rng_state = capture_rng_state()
+    was_training = model.training
+    model.eval()
+    random.seed(seed)
+    np.random.seed(seed)
+    torch.manual_seed(seed)
+    torch.cuda.manual_seed_all(seed)
+    weighted_loss = 0.0
+    image_count = 0
+    try:
+        for images, _ in loader:
+            images = images.to(device, non_blocking=True)
+            loss = diffusion.loss(model, images)
+            weighted_loss += float(loss) * images.shape[0]
+            image_count += images.shape[0]
+    finally:
+        restore_rng_state(rng_state)
+        if was_training:
+            model.train()
+    if image_count == 0:
+        raise ValueError("Validation loader is empty")
+    return weighted_loss / image_count
+
+
+class ManifestImageDataset(Dataset):
+    """Read RGB images named by a frozen split manifest; labels are not returned."""
+
+    def __init__(
+        self,
+        manifest_path: Path,
+        image_root: Path,
+        split: str,
+        image_size: int,
+        interpolation: str,
+        subset_size: int | None,
+        seed: int,
+    ) -> None:
+        with manifest_path.open(newline="", encoding="utf-8") as stream:
+            rows = csv.DictReader(stream)
+            self.paths = [
+                image_root / row["relative_path"]
+                for row in rows
+                if row["split"] == split and row["qc_decision"] == "keep"
+            ]
+        if not self.paths:
+            raise ValueError(f"No QC-kept images found for split={split!r} in {manifest_path}")
+        missing = [path for path in self.paths if not path.is_file()]
+        if missing:
+            raise FileNotFoundError(f"{len(missing)} manifest images are missing; first: {missing[0]}")
+        if subset_size is not None:
+            if subset_size < 1:
+                raise ValueError("subset_size must be positive")
+            if subset_size < len(self.paths):
+                self.paths = random.Random(seed).sample(self.paths, subset_size)
+        interpolation_modes = {
+            "lanczos": InterpolationMode.LANCZOS,
+            "bicubic": InterpolationMode.BICUBIC,
+            "bilinear": InterpolationMode.BILINEAR,
+        }
+        if interpolation not in interpolation_modes:
+            raise ValueError(f"Unsupported resize interpolation: {interpolation}")
+        self.transform = transforms.Compose(
+            [
+                transforms.Resize((image_size, image_size), interpolation=interpolation_modes[interpolation]),
+                transforms.ToTensor(),
+                transforms.Normalize((0.5, 0.5, 0.5), (0.5, 0.5, 0.5)),
+            ]
+        )
+
+    def __len__(self) -> int:
+        return len(self.paths)
+
+    def __getitem__(self, index: int) -> tuple[torch.Tensor, int]:
+        with Image.open(self.paths[index]) as image:
+            tensor = self.transform(image.convert("RGB"))
+        return tensor, 0
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--config", type=Path, required=True)
     parser.add_argument("--max-steps", type=int, help="Short pipeline run; not a paper-reproduction result.")
+    parser.add_argument("--subset-size", type=int, help="Deterministic image subset for smoke runs.")
     parser.add_argument("--resume", action="store_true", help="Resume from the run's latest.pt checkpoint.")
     args = parser.parse_args()
     config = tomllib.loads(args.config.read_text())
@@ -108,23 +198,69 @@ def main() -> None:
     )
     output_root = Path(exp["output_dir"])
     is_smoke = args.max_steps is not None
-    run_name = f"{exp['name']}-smoke" if is_smoke else exp["name"]
+    run_suffix = exp.get("run_suffix", "smoke" if is_smoke else "")
+    run_name = f"{exp['name']}-{run_suffix}" if run_suffix else exp["name"]
+    run_kind = exp.get("run_kind", "smoke" if is_smoke else "formal")
     run_dir = output_root / "results" / run_name
     checkpoint_dir = output_root / "checkpoints" / run_name
     samples_dir = output_root / "generated_samples" / run_name
     for directory in (run_dir, checkpoint_dir, samples_dir):
         directory.mkdir(parents=True, exist_ok=True)
     (run_dir / "config.toml").write_text(args.config.read_text())
-    write_environment(run_dir / "environment.json")
+    slurm_job_id = os.environ.get("SLURM_JOB_ID")
+    environment_name = f"environment_job_{slurm_job_id}.json" if slurm_job_id else "environment.json"
+    write_environment(run_dir / environment_name)
+    (run_dir / "run_params.json").write_text(
+        json.dumps({"max_steps": args.max_steps, "subset_size": args.subset_size, "run_kind": run_kind}, indent=2) + "\n"
+    )
 
     if not torch.cuda.is_available():
         raise RuntimeError("CUDA is not visible. Start this command inside an allocated GPU job.")
     device = torch.device("cuda")
     seed_everything(exp["seed"])
 
-    transform_list = [transforms.RandomHorizontalFlip() if data_cfg["horizontal_flip"] else transforms.Lambda(lambda x: x)]
-    transform_list.extend((transforms.ToTensor(), transforms.Normalize((0.5,) * 3, (0.5,) * 3)))
-    dataset = datasets.CIFAR10(root=data_cfg["root"], train=True, download=True, transform=transforms.Compose(transform_list))
+    dataset_type = data_cfg.get("type", "cifar10")
+    validation_loader = None
+    if dataset_type == "cifar10":
+        transform_list = [
+            transforms.RandomHorizontalFlip() if data_cfg["horizontal_flip"] else transforms.Lambda(lambda x: x)
+        ]
+        transform_list.extend((transforms.ToTensor(), transforms.Normalize((0.5,) * 3, (0.5,) * 3)))
+        dataset = datasets.CIFAR10(
+            root=data_cfg["root"], train=True, download=True, transform=transforms.Compose(transform_list)
+        )
+    elif dataset_type == "image_manifest":
+        dataset = ManifestImageDataset(
+            manifest_path=Path(data_cfg["split_manifest"]),
+            image_root=Path(data_cfg["image_root"]),
+            split=data_cfg.get("split", "train"),
+            image_size=model_cfg["image_size"],
+            interpolation=data_cfg.get("resize_interpolation", "lanczos"),
+            subset_size=args.subset_size,
+            seed=exp["seed"],
+        )
+        print(f"dataset=manifest split={data_cfg.get('split', 'train')} images={len(dataset):,}", flush=True)
+        validation_dataset = ManifestImageDataset(
+            manifest_path=Path(data_cfg["split_manifest"]),
+            image_root=Path(data_cfg["image_root"]),
+            split="validation",
+            image_size=model_cfg["image_size"],
+            interpolation=data_cfg.get("resize_interpolation", "lanczos"),
+            subset_size=None,
+            seed=exp["seed"],
+        )
+        validation_loader = DataLoader(
+            validation_dataset,
+            batch_size=data_cfg["batch_size"],
+            shuffle=False,
+            num_workers=data_cfg["num_workers"],
+            pin_memory=True,
+            drop_last=False,
+            persistent_workers=data_cfg["num_workers"] > 0,
+        )
+        print(f"validation_images={len(validation_dataset):,}", flush=True)
+    else:
+        raise ValueError(f"Unsupported dataset type: {dataset_type}")
     loader = DataLoader(
         dataset,
         batch_size=data_cfg["batch_size"],
@@ -157,7 +293,9 @@ def main() -> None:
 
     step = 0
     latest_path = checkpoint_dir / "latest.pt"
-    if args.resume and latest_path.exists():
+    if args.resume:
+        if not latest_path.is_file():
+            raise FileNotFoundError(f"--resume requested but checkpoint does not exist: {latest_path}")
         state = torch.load(latest_path, map_location=device, weights_only=False)
         model.load_state_dict(state["model"])
         ema.load_state_dict(state["ema"])
@@ -165,6 +303,7 @@ def main() -> None:
         step = int(state["step"])
         if "rng_state" in state:
             restore_rng_state(state["rng_state"])
+        print(f"resumed checkpoint={latest_path} step={step}", flush=True)
 
     target_steps = args.max_steps if args.max_steps is not None else train_cfg["steps"]
     log_path = run_dir / "train.csv"
@@ -174,6 +313,17 @@ def main() -> None:
     if needs_header:
         logger.writerow(("step", "loss", "learning_rate", "elapsed_seconds", "peak_vram_mib"))
         log_file.flush()
+
+    validation_file = None
+    validation_logger = None
+    if validation_loader is not None:
+        validation_path = run_dir / "validation.csv"
+        validation_needs_header = not validation_path.exists() or not args.resume
+        validation_file = validation_path.open("a" if args.resume else "w", newline="")
+        validation_logger = csv.writer(validation_file)
+        if validation_needs_header:
+            validation_logger.writerow(("step", "epsilon_mse", "validation_images", "seed"))
+            validation_file.flush()
 
     model.train()
     iterator = iter(loader)
@@ -213,6 +363,20 @@ def main() -> None:
                 print(f"step={step}/{target_steps} loss={loss.item():.6f} lr={lr:.3g} peak_vram={peak_memory:.0f}MiB", flush=True)
 
             should_stop = stop_requested["signal"] is not None
+            validation_every = int(train_cfg.get("validation_every", train_cfg["checkpoint_every"]))
+            if validation_loader is not None and (
+                step % validation_every == 0 or step == target_steps or should_stop
+            ):
+                validation_seed = int(exp.get("validation_seed", exp["seed"] + 1))
+                validation_loss = evaluate_noise_loss(
+                    ema, diffusion, validation_loader, device, validation_seed
+                )
+                validation_logger.writerow(
+                    (step, f"{validation_loss:.7f}", len(validation_loader.dataset), validation_seed)
+                )
+                validation_file.flush()
+                print(f"validation step={step} epsilon_mse={validation_loss:.6f}", flush=True)
+
             if step % train_cfg["checkpoint_every"] == 0 or step == target_steps or should_stop:
                 payload = {
                     "step": step,
@@ -227,7 +391,8 @@ def main() -> None:
 
             if (step % train_cfg["sample_every"] == 0 or (is_smoke and step == target_steps)):
                 sample_count = min(train_cfg["sample_count"], 4) if is_smoke else train_cfg["sample_count"]
-                sample_generator = torch.Generator(device=device).manual_seed(exp["seed"] + step)
+                sample_seed = int(exp.get("sample_seed", exp["seed"]))
+                sample_generator = torch.Generator(device=device).manual_seed(sample_seed)
                 samples = diffusion.sample(
                     ema,
                     (sample_count, model_cfg["channels"], model_cfg["image_size"], model_cfg["image_size"]),
@@ -241,9 +406,11 @@ def main() -> None:
                 break
     finally:
         log_file.close()
+        if validation_file is not None:
+            validation_file.close()
 
     status = {
-        "status": "interrupted" if stop_requested["signal"] is not None else "smoke_only" if is_smoke else "training_complete",
+        "status": "interrupted" if stop_requested["signal"] is not None else f"{run_kind}_only" if is_smoke else "training_complete",
         "completed_steps": step,
         "target_steps": target_steps,
         "timestamp_utc": datetime.now(timezone.utc).isoformat(),

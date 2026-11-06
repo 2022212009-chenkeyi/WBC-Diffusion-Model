@@ -1,0 +1,47 @@
+{
+  "dataset": "Raabin-WBC cropped double-labeled Train",
+  "version": 1,
+  "qc_decision_manifest": "datasets/metadata/dinobloom/raabin-wbc-train-qc-decisions.csv",
+  "split_manifest": "datasets/metadata/dinobloom/raabin-wbc-train-split-manifest.csv",
+  "split_manifest_sha256": "d4d9d318967ca53a08d3dbc68175606c6b409dfaa1c9866a6444d2e9e0edff9b",
+  "source_root": "/projects/_hdd/keyi005hdd/dinobloom/raw/raabin-wbc-train/Train",
+  "verified_source_images": {
+    "count": 10175,
+    "source_dimensions": [575, 575],
+    "source_mode": "RGB",
+    "decode_errors": 0
+  },
+  "qc_eligible_counts": {
+    "keep": 10173,
+    "review_withheld": 1,
+    "exclude": 1
+  },
+  "splits": {
+    "train": 8139,
+    "validation": 1017,
+    "test": 1017,
+    "seed": 20261104,
+    "grouped_by": "SHA-256 singletons and provisional dHash candidate pairs"
+  },
+  "transform": {
+    "color_mode": "RGB",
+    "resize_candidates": [128, 256],
+    "resize_method": "LANCZOS",
+    "resize_shape": "square, preserve full source field; no crop or padding",
+    "tensor_layout": "CHW float32",
+    "normalization": "x_float = (x_uint8 / 255.0 - 0.5) / 0.5",
+    "output_range": [-1.0, 1.0],
+    "color_normalization": "none",
+    "random_augmentation": "none"
+  },
+  "model_input": {
+    "image_only": true,
+    "class_labels_passed": false,
+    "disease_or_patient_labels_passed": false
+  },
+  "limitations": [
+    "No patient or smear identifiers were verified, so the split is not guaranteed patient-disjoint.",
+    "The dHash candidate pairs are visually similar, not confirmed same-cell duplicates; they were kept in one split conservatively.",
+    "The one QC review image is withheld from training pending second review."
+  ]
+}

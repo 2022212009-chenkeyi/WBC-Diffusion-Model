@@ -38,7 +38,9 @@ def main() -> None:
     config = tomllib.loads(args.config.read_text())
     exp, model_cfg, diffusion_cfg = config["experiment"], config["model"], config["diffusion"]
     output_root = Path(exp["output_dir"])
-    checkpoint = args.checkpoint or output_root / "checkpoints" / exp["name"] / "latest.pt"
+    run_suffix = exp.get("run_suffix", "")
+    run_name = f"{exp['name']}-{run_suffix}" if run_suffix else exp["name"]
+    checkpoint = args.checkpoint or output_root / "checkpoints" / run_name / "latest.pt"
     if not checkpoint.is_file():
         raise FileNotFoundError(f"checkpoint not found: {checkpoint}")
     if not torch.cuda.is_available():
@@ -63,7 +65,7 @@ def main() -> None:
         beta_end=diffusion_cfg["beta_end"],
     ).to(device)
 
-    output_dir = output_root / "generated_samples" / exp["name"]
+    output_dir = output_root / "generated_samples" / run_name
     output_dir.mkdir(parents=True, exist_ok=True)
     step = int(state["step"])
     stem = f"samples_ema_step{step:07d}_n{args.num_samples}_seed{args.seed}"

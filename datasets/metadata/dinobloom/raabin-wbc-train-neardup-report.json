@@ -1,0 +1,10 @@
+{
+  "method": "64-bit difference hash (dHash), 9x8 grayscale thumbnails; candidates are not confirmed duplicates",
+  "threshold_hamming_distance": 4,
+  "images_scanned": 10175,
+  "candidate_pair_count": 160,
+  "unique_dhash_count": 10170,
+  "candidate_csv": "datasets/metadata/dinobloom/raabin-wbc-train-neardup-candidates.csv",
+  "elapsed_seconds": 21.4,
+  "interpretation": "Low-distance candidates need visual review. dHash can miss translated/reframed copies and can flag visually similar but distinct cells."
+}

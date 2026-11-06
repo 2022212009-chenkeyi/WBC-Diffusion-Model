@@ -1,0 +1,45 @@
+{
+  "images_screened": 10175,
+  "flagged_any_technical_candidate": 0,
+  "flag_counts": {},
+  "metric_quantiles": {
+    "mean_gray_64": {
+      "p01": 125.474,
+      "p05": 135.688,
+      "median": 152.665,
+      "p95": 163.513,
+      "p99": 167.819
+    },
+    "std_gray_64": {
+      "p01": 28.759,
+      "p05": 31.87,
+      "median": 40.123,
+      "p95": 50.516,
+      "p99": 61.595
+    },
+    "edge_std_64": {
+      "p01": 39.566,
+      "p05": 41.932,
+      "median": 46.646,
+      "p95": 53.811,
+      "p99": 59.996
+    },
+    "fraction_dark_le5": {
+      "p01": 0.0,
+      "p05": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    },
+    "fraction_bright_ge250": {
+      "p01": 0.0,
+      "p05": 0.0,
+      "median": 0.0,
+      "p95": 0.0,
+      "p99": 0.0
+    }
+  },
+  "method": "RGB image resized to 64x64, then grayscale mean/stddev, FIND_EDGES standard deviation, and fractions at gray <=5 or >=250. Heuristic flags are review prompts only, not exclusion decisions.",
+  "elapsed_seconds": 17.41,
+  "metrics_csv": "results/phase2_dataset/raabin_wbc_train_qc/technical_screening_metrics.csv"
+}

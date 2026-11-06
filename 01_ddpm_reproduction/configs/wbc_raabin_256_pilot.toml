@@ -1,0 +1,43 @@
+[experiment]
+name = "wbc-raabin-256"
+run_suffix = "pilot"
+run_kind = "pilot"
+seed = 2026
+output_dir = "/projects/keyi005ssd/WBCDiffusion"
+
+[data]
+type = "image_manifest"
+split_manifest = "/home/keyi005/projects/WBCDiffusion/datasets/metadata/dinobloom/raabin-wbc-train-split-manifest.csv"
+image_root = "/projects/_hdd/keyi005hdd/dinobloom/raw/raabin-wbc-train/Train"
+split = "train"
+resize_interpolation = "lanczos"
+batch_size = 2
+num_workers = 2
+
+[model]
+image_size = 256
+channels = 3
+base_channels = 64
+channel_multipliers = [1, 2, 2, 2]
+residual_blocks = 2
+attention_resolution = 16
+dropout = 0.1
+
+[diffusion]
+timesteps = 1000
+beta_start = 0.0001
+beta_end = 0.02
+prediction = "epsilon"
+variance = "fixed_large"
+
+[training]
+steps = 200
+learning_rate = 0.0002
+warmup_steps = 50
+gradient_clip = 1.0
+ema_decay = 0.99
+checkpoint_every = 100
+keep_checkpoints = 2
+sample_every = 200
+sample_count = 4
+precision = "float32"

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1050" viewBox="0 0 1500 1050">
+<rect x="0.0" y="0.0" width="1500.0" height="1050.0" fill="#ffffff" fill-opacity="1.0" rx="3" />
+<text x="65.0" y="45.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="28" font-weight="bold" text-anchor="start" fill="#233044">WBC DDPM baseline diagnostics</text>
+<text x="65.0" y="72.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="16" font-weight="normal" text-anchor="start" fill="#637083">Raabin-WBC · 256×256 · EMA step 200,000 · generic Inception-v3 features</text>
+<text x="120.0" y="105.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold" text-anchor="start" fill="#233044">Denoising objective (log scale)</text>
+<line x1="120.0" y1="440.0" x2="1400.0" y2="440.0" stroke="#dce2ea" stroke-width="1.5" />
+<text x="108.0" y="445.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="end" fill="#637083">10^-4</text>
+<line x1="120.0" y1="364.6" x2="1400.0" y2="364.6" stroke="#dce2ea" stroke-width="1.5" />
+<text x="108.0" y="369.6" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="end" fill="#637083">10^-3</text>
+<line x1="120.0" y1="289.1" x2="1400.0" y2="289.1" stroke="#dce2ea" stroke-width="1.5" />
+<text x="108.0" y="294.1" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="end" fill="#637083">10^-2</text>
+<line x1="120.0" y1="213.7" x2="1400.0" y2="213.7" stroke="#dce2ea" stroke-width="1.5" />
+<text x="108.0" y="218.7" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="end" fill="#637083">10^-1</text>
+<line x1="120.0" y1="138.3" x2="1400.0" y2="138.3" stroke="#dce2ea" stroke-width="1.5" />
+<text x="108.0" y="143.3" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="end" fill="#637083">10^0</text>
+<line x1="120.0" y1="125.0" x2="120.0" y2="440.0" stroke="#dce2ea" stroke-width="1" />
+<text x="120.0" y="466.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#637083">0k</text>
+<line x1="440.0" y1="125.0" x2="440.0" y2="440.0" stroke="#dce2ea" stroke-width="1" />
+<text x="440.0" y="466.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#637083">50k</text>
+<line x1="760.0" y1="125.0" x2="760.0" y2="440.0" stroke="#dce2ea" stroke-width="1" />
+<text x="760.0" y="466.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#637083">100k</text>
+<line x1="1080.0" y1="125.0" x2="1080.0" y2="440.0" stroke="#dce2ea" stroke-width="1" />
+<text x="1080.0" y="466.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#637083">150k</text>
+<line x1="1400.0" y1="125.0" x2="1400.0" y2="440.0" stroke="#dce2ea" stroke-width="1" />
+<text x="1400.0" y="466.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#637083">200k</text>
+<polyline points="135.7,207.1 167.7,306.7 199.7,332.3 231.7,297.8 263.7,304.1 295.7,320.9 327.7,308.7 359.7,316.6 391.7,322.8 423.7,320.0 455.7,326.7 487.7,307.6 519.7,316.9 551.7,320.7 583.7,332.7 615.7,322.1 647.7,317.5 679.7,308.2 711.7,324.5 743.7,317.2 775.7,311.7 807.7,316.8 839.7,296.0 871.7,321.6 903.7,324.3 935.7,317.2 967.7,313.8 999.7,305.8 1031.7,312.5 1063.7,322.6 1095.7,322.2 1127.7,305.8 1159.7,302.7 1191.7,313.5 1223.7,310.5 1255.7,299.5 1287.7,301.0 1319.7,310.0 1351.7,314.9 1383.7,312.8 1400.0,424.1" fill="none" stroke="#2878b5" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round" />
+<polyline points="184.0,197.3 248.0,255.1 312.0,293.9 376.0,308.4 440.0,311.4 504.0,312.8 568.0,313.7 632.0,314.5 696.0,314.9 760.0,315.5 824.0,315.9 888.0,316.2 952.0,316.5 1016.0,316.7 1080.0,316.9 1144.0,317.1 1208.0,317.2 1272.0,317.3 1336.0,317.5 1400.0,317.6" fill="none" stroke="#e07a32" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" />
+<line x1="140.0" y1="124.0" x2="168.0" y2="124.0" stroke="#2878b5" stroke-width="3" />
+<text x="176.0" y="130.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#637083">train loss, 5k-update mean</text>
+<line x1="420.0" y1="124.0" x2="448.0" y2="124.0" stroke="#e07a32" stroke-width="3" />
+<text x="456.0" y="130.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#637083">fixed-seed validation epsilon MSE</text>
+<text x="1400.0" y="466.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="end" fill="#637083">update step</text>
+<text x="110.0" y="497.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold" text-anchor="start" fill="#233044">PRDC (higher is better)</text>
+<line x1="166.0" y1="863.0" x2="740.0" y2="863.0" stroke="#dce2ea" stroke-width="1.5" />
+<text x="154.0" y="868.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">0.00</text>
+<line x1="166.0" y1="783.5" x2="740.0" y2="783.5" stroke="#dce2ea" stroke-width="1.5" />
+<text x="154.0" y="788.5" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">0.25</text>
+<line x1="166.0" y1="704.0" x2="740.0" y2="704.0" stroke="#dce2ea" stroke-width="1.5" />
+<text x="154.0" y="709.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">0.50</text>
+<line x1="166.0" y1="624.5" x2="740.0" y2="624.5" stroke="#dce2ea" stroke-width="1.5" />
+<text x="154.0" y="629.5" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">0.75</text>
+<line x1="166.0" y1="545.0" x2="740.0" y2="545.0" stroke="#dce2ea" stroke-width="1.5" />
+<text x="154.0" y="550.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">1.00</text>
+<rect x="216.2" y="835.5" width="32.0" height="27.5" fill="#2878b5" fill-opacity="1.0" rx="3" />
+<text x="232.2" y="827.5" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#2878b5">0.09</text>
+<rect x="254.2" y="580.0" width="32.0" height="283.0" fill="#22856a" fill-opacity="1.0" rx="3" />
+<text x="270.2" y="572.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#22856a">0.89</text>
+<text x="251.2" y="891.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#637083">Precision</text>
+<rect x="350.8" y="694.8" width="32.0" height="168.2" fill="#2878b5" fill-opacity="1.0" rx="3" />
+<text x="366.8" y="686.8" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#2878b5">0.53</text>
+<rect x="388.8" y="573.2" width="32.0" height="289.8" fill="#22856a" fill-opacity="1.0" rx="3" />
+<text x="404.8" y="565.2" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#22856a">0.91</text>
+<text x="385.8" y="891.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#637083">Recall</text>
+<rect x="485.2" y="848.8" width="32.0" height="14.2" fill="#2878b5" fill-opacity="1.0" rx="3" />
+<text x="501.2" y="840.8" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#2878b5">0.04</text>
+<rect x="523.2" y="556.0" width="32.0" height="307.0" fill="#22856a" fill-opacity="1.0" rx="3" />
+<text x="539.2" y="548.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#22856a">0.97</text>
+<text x="520.2" y="891.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#637083">Density</text>
+<rect x="619.8" y="787.3" width="32.0" height="75.7" fill="#2878b5" fill-opacity="1.0" rx="3" />
+<text x="635.8" y="779.3" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#2878b5">0.24</text>
+<rect x="657.8" y="556.9" width="32.0" height="306.1" fill="#22856a" fill-opacity="1.0" rx="3" />
+<text x="673.8" y="548.9" font-family="DejaVu Sans,Arial,sans-serif" font-size="11" font-weight="normal" text-anchor="middle" fill="#22856a">0.96</text>
+<text x="654.8" y="891.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="middle" fill="#637083">Coverage</text>
+<rect x="195.0" y="911.0" width="14.0" height="14.0" fill="#2878b5" fill-opacity="1.0" rx="3" />
+<text x="216.0" y="923.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#637083">generated vs test</text>
+<rect x="400.0" y="911.0" width="14.0" height="14.0" fill="#22856a" fill-opacity="1.0" rx="3" />
+<text x="421.0" y="923.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#637083">real test split reference</text>
+<text x="820.0" y="497.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="20" font-weight="bold" text-anchor="start" fill="#233044">FID / KID (log scale; lower is better)</text>
+<line x1="890.0" y1="863.0" x2="1390.0" y2="863.0" stroke="#dce2ea" stroke-width="1.5" />
+<text x="878.0" y="868.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">1e-7</text>
+<line x1="890.0" y1="772.1" x2="1390.0" y2="772.1" stroke="#dce2ea" stroke-width="1.5" />
+<text x="878.0" y="777.1" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">1e-5</text>
+<line x1="890.0" y1="681.3" x2="1390.0" y2="681.3" stroke="#dce2ea" stroke-width="1.5" />
+<text x="878.0" y="686.3" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">1e-3</text>
+<line x1="890.0" y1="590.4" x2="1390.0" y2="590.4" stroke="#dce2ea" stroke-width="1.5" />
+<text x="878.0" y="595.4" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">1e-1</text>
+<line x1="890.0" y1="545.0" x2="1390.0" y2="545.0" stroke="#dce2ea" stroke-width="1.5" />
+<text x="878.0" y="550.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="end" fill="#637083">1e0</text>
+<rect x="972.5" y="550.6" width="36.0" height="312.4" fill="#bf4e4e" fill-opacity="1.0" rx="3" />
+<text x="990.5" y="542.6" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#bf4e4e">0.75</text>
+<rect x="1026.5" y="624.2" width="36.0" height="238.8" fill="#22856a" fill-opacity="1.0" rx="3" />
+<text x="1044.5" y="616.2" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#22856a">0.018</text>
+<text x="1017.5" y="891.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#637083">FID</text>
+<rect x="1207.5" y="675.4" width="36.0" height="187.6" fill="#bf4e4e" fill-opacity="1.0" rx="3" />
+<text x="1225.5" y="667.4" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#bf4e4e">0.0013</text>
+<rect x="1261.5" y="811.9" width="36.0" height="51.1" fill="#22856a" fill-opacity="1.0" rx="3" />
+<text x="1279.5" y="803.9" font-family="DejaVu Sans,Arial,sans-serif" font-size="12" font-weight="normal" text-anchor="middle" fill="#22856a">1.3e-06</text>
+<text x="1252.5" y="891.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="15" font-weight="normal" text-anchor="middle" fill="#637083">KID</text>
+<rect x="908.0" y="911.0" width="14.0" height="14.0" fill="#bf4e4e" fill-opacity="1.0" rx="3" />
+<text x="929.0" y="923.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#637083">generated vs test</text>
+<rect x="1120.0" y="911.0" width="14.0" height="14.0" fill="#22856a" fill-opacity="1.0" rx="3" />
+<text x="1141.0" y="923.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="13" font-weight="normal" text-anchor="start" fill="#637083">real train vs test</text>
+<text x="65.0" y="1005.0" font-family="DejaVu Sans,Arial,sans-serif" font-size="14" font-weight="normal" text-anchor="start" fill="#637083">Interpret cautiously: Inception-v3 features are generic natural-image features, not validated WBC morphology metrics. Blind human review is pending.</text>
+</svg>

@@ -1,0 +1,66 @@
+{
+  "dataset": "Raabin-WBC cropped double-labeled Train",
+  "split_method": "Deterministic grouped, class-stratified greedy assignment",
+  "ratios_requested": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "seed": 20261104,
+  "eligible_images": 10173,
+  "qc_excluded_images": 1,
+  "qc_review_images_withheld": 1,
+  "group_count": 10013,
+  "candidate_pair_count": 160,
+  "candidate_pairs_overlap_check": "verified: no image occurs in more than one candidate pair",
+  "class_counts": {
+    "Basophil": {
+      "train": 169,
+      "validation": 21,
+      "test": 21
+    },
+    "Eosinophil": {
+      "train": 596,
+      "validation": 74,
+      "test": 74
+    },
+    "Lymphocyte": {
+      "train": 1941,
+      "validation": 243,
+      "test": 243
+    },
+    "Monocyte": {
+      "train": 448,
+      "validation": 56,
+      "test": 56
+    },
+    "Neutrophil": {
+      "train": 4985,
+      "validation": 623,
+      "test": 623
+    }
+  },
+  "split_totals": {
+    "train": 8139,
+    "validation": 1017,
+    "test": 1017
+  },
+  "groups_crossing_splits": 0,
+  "sha256_duplicates_crossing_splits": 0,
+  "patient_or_smear_ids": "not available/verified; patient-level separation cannot be guaranteed",
+  "official_TestA_TestB": "not used in this internal split; Train component only",
+  "limitations": [
+    "The dHash candidate pairs are lookalikes, not confirmed same-cell duplicates; they were conservatively kept together.",
+    "The original official Train subset is curated to remove repeated samples, but local patient/smear linkage is unavailable.",
+    "Class folders were used only for stratification; labels are not model inputs."
+  ],
+  "manifest": "datasets/metadata/dinobloom/raabin-wbc-train-split-manifest.csv",
+  "independent_split_verification": {
+    "kept_rows_match_qc_register": true,
+    "relative_paths_unique": true,
+    "sha256_values_unique_in_kept_set": true,
+    "candidate_groups_crossing_splits": 0,
+    "candidate_pairs_crossing_splits": 0,
+    "split_labels_complete": true
+  }
+}
